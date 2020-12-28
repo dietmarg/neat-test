@@ -1,6 +1,6 @@
 ---
 title: Das ist ein neuer Blog-Eintrag
-description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. "
+description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. -2
 author: dietmarg
 date: 2020-12-28T14:44:32.006Z
 tags:
