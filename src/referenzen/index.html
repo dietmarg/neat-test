@@ -1,0 +1,42 @@
+---
+layout: blog
+title: Referenzen
+---
+
+<section class="mt-15">
+    {% set postslist = collections.project %}
+
+    {% for project in postslist | reverse %}
+        <article class="my-8">
+            <h2 class="font-bold text-3xl text-gray-900 mb-2">
+                <a href="{{ project.url | url }}">
+                    {% if project.data.title %}
+                        {{ project.data.title }}
+                    {% else %}
+                        Untitled
+                    {% endif %}
+                </a>
+            </h2>
+    
+            {% if project.data.description %}
+                <p class="text-lg text-gray-500 mb-3">
+                    {{ project.data.description }}
+                </p>
+            {% endif %}
+
+           <!-- <p>
+                <a href="{{ project.url | url }}" class="text-indigo-500 font-bold text-lg">
+                    Read more →
+                </a>
+            </p> -->
+            <div x-data="{ open: false }">
+                <button @click="open = true">Open Project</button>
+             
+                <ul x-show="open" @click.away="open = false">
+                   {{ project.templateContent | safe }}
+                </ul>
+            </div>
+
+        </article>
+    {% endfor %}
+</section>

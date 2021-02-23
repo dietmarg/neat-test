@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url(/static/fonts/Roboto/Roboto-Regular.ttf) format('ttf');
+}
+
 /*Your Custom CSS Goes here*/
 
 h1 {
-  @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
+  @apply text-4xl tracking-wider mb-3 text-center lg:text-6xl;
 }
 
 h3 {

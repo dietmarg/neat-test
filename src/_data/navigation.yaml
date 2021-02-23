@@ -1,10 +1,9 @@
----
 items:
-  - text: Menu One
-    url: "#"
+  - text: Referenzen
+    url: /referenzen
   - text: Menu Two
     url: "#"
   - text: Menu Three
     url: "#"
   - text: Blog
-    url: "/blog"
+    url: /blog
