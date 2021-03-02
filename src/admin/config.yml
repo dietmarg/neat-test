@@ -47,6 +47,22 @@ collections:
         multiple: true
         create: true
         options: ["Tags", "created", "from", "config.yml"]      
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Startseite"
+        name: "front"
+        file: "src/_data/frontpage.yaml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subline, name: subline, widget: string}
+          - label: Leistungen
+            name: services
+            widget: list
+            fields: 
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+              - { label: "Body", name: "body", widget: "markdown" } 
   - label: "Settings"
     name: "settings"
     editor:

@@ -1,7 +1,6 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/Users/Dietmar/.nvm/versions/node/v4.0.0/bin/node',
 1 verbose cli   '/Users/Dietmar/.nvm/versions/node/v4.0.0/bin/npm',
-1 verbose cli   'run',
 1 verbose cli   'start' ]
 2 info using npm@4.1.1
 3 info using node@v4.0.0
@@ -28,7 +27,7 @@
 15 verbose pkgid @
 16 verbose cwd /Users/Dietmar/Projekte/neat
 17 error Darwin 19.6.0
-18 error argv "/Users/Dietmar/.nvm/versions/node/v4.0.0/bin/node" "/Users/Dietmar/.nvm/versions/node/v4.0.0/bin/npm" "run" "start"
+18 error argv "/Users/Dietmar/.nvm/versions/node/v4.0.0/bin/node" "/Users/Dietmar/.nvm/versions/node/v4.0.0/bin/npm" "start"
 19 error node v4.0.0
 20 error npm  v4.1.1
 21 error code ELIFECYCLE
