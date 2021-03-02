@@ -19,7 +19,7 @@ path: home
               <span class="block text-cyan-600">{% if frontpage.title %}{{ frontpage.title }}{% endif %}</span>
             </h1>
             <p class="mt-6 max-w-lg mx-auto text-center text-xl text-cyan-600 sm:max-w-3xl">
-              {% if frontpage.subline %}{{ frontpage.subline }}{% endif %}
+              {% if frontpage.subline %}{{ frontpage.subline | markdownify }}{% endif %}
             </p>
         </div>
         </div>
