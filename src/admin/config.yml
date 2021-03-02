@@ -55,14 +55,14 @@ collections:
         file: "src/_data/frontpage.yaml"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Subline, name: subline, widget: string}
+          - {label: Subline, name: subline, widget: markdown}
           - label: Leistungen
             name: services
             widget: list
             fields: 
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "description", widget: "string" }
-              - { label: "Body", name: "body", widget: "markdown" } 
+              - { label: "Body", name: "body", widget: "markdown", required: false } 
   - label: "Settings"
     name: "settings"
     editor:
