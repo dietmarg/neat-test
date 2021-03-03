@@ -5,3 +5,6 @@ services:
     description: Vom Konzept über die Recherche bis zur Ausformulierung übernehme
       ich alle Schritte der Textproduktion, natürlich exklusiv und individuell.
     body: ""
+  - title: Lektorieren
+    description: Lassen Sie mich Ihre Texte vor der Veröffentlichung inhaltlich,
+      stilistisch und formal verbessern.
