@@ -19,7 +19,7 @@ path: home
               <span class="block text-cyan-600">{% if frontpage.title %}{{ frontpage.title }}{% endif %}</span>
             </h1>
             <p class="mt-6 max-w-lg mx-auto text-center text-xl text-cyan-600 sm:max-w-3xl">
-              {% if frontpage.subline %}{{ frontpage.subline | markdownify }}{% endif %}
+              {% if frontpage.subline %}{{ frontpage.subline|safe }}{% endif %}
             </p>
         </div>
         </div>
@@ -29,10 +29,12 @@ path: home
 
   <!-- Leistungen -->
   <section>
+    {% for service in frontpage.services %}
     <div class="max-w-md mx-auto border-gray-300 border-2 h-auto">
-      <div class="h-auto bg-cyan-600 text-white text-center text-lg p-4">Schreiben</div>
-      <div class="p-6"><p>Vom Konzept über die Recherche bis zur Ausformulierung übernehme ich alle Schritte der Textproduktion, natürlich exklusiv und individuell. </p></div>
+      <div class="h-auto bg-cyan-600 text-white text-center text-lg p-4">{% if service.title %}{{ service.title}}{% endif %}</div>
+      <div class="p-6"><p>{% if service.description %}{{ service.description|safe }} {% endif %}</p></div>
     </div>
+    {% endfor %}
   </section>
   <!-- <h1>
     Welcome to
