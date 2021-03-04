@@ -8,17 +8,17 @@ path: home
   <!-- Hero card -->
   <div class="relative">
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-      <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
+      <div class="relative shadow-xl sm:overflow-hidden">
         <div class="absolute inset-0">
           <img class="h-full w-full object-cover" src="/static/img/klee_bg.jpg" alt="People working on laptops">
-          <div class="absolute inset-0 bg-indigo-700" style="mix-blend-mode: multiply;"></div>
+          <div class="absolute inset-0 bg-indigo-700  bg-gradient-to-b from-gray-500 to-gray-400" style="mix-blend-mode: multiply;"></div>
         </div>
         <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-          <div class="bg-white bg-opacity-80 py-8 w-4/5 mx-auto">
-            <h1 class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl  border-b-2 border-cyan-600 pb-4 mx-6">
-              <span class="block text-cyan-600">{% if frontpage.title %}{{ frontpage.title }}{% endif %}</span>
+          <div class="py-8 w-4/5 mx-auto">
+            <h1 class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl  border-b-2 border-white pb-4 mx-6">
+              <span class="block text-white">{% if frontpage.title %}{{ frontpage.title }}{% endif %}</span>
             </h1>
-            <p class="mt-6 max-w-lg mx-auto text-center text-xl text-cyan-600 sm:max-w-3xl">
+            <p class="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl">
               {% if frontpage.subline %}{{ frontpage.subline|safe }}{% endif %}
             </p>
         </div>
@@ -46,6 +46,12 @@ path: home
       {% endfor %}
     </div>
   </section>
+
+  <!-- Referenzen -->
+  <section>
+
+  </section>
+
   <!-- <h1>
     Welcome to
     <strong class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-700 to-purple-500">
