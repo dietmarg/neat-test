@@ -26,6 +26,6 @@ result: Mehrere Dutzend Ausgaben seit Herbst 2011, abrufbar unter
   [www.bundzeit.de](http://www.bundzeit.de)
 image: /static/img/bundzeit_teaser.jpg
 tags:
-  - Webredaktion
   - Schreiben
+  - Lektorieren
 ---
