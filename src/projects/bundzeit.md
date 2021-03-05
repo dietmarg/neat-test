@@ -23,7 +23,7 @@ mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
   sujet design. Im letzten Arbeitsschritt organisiere ich das Korrekturlesen und
   das Einarbeiten der Korrekturen."
 result: Mehrere Dutzend Ausgaben seit Herbst 2011, abrufbar unter
-  [www.bundzeit.de](http://www.bundzeit.de)
+  [www.bundzeit.de](http://www.bundzeit.de).
 image: /static/img/bundzeit_teaser.jpg
 tags:
   - Schreiben
