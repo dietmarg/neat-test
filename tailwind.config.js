@@ -30,6 +30,9 @@ module.exports = {
     },
     extend: {
       colors: {},
+      backgroundImage: theme => ({
+        'section-pattern': "url('/static/img/klee_bg.jpg')"
+      })
     },
   },
   variants: {},
