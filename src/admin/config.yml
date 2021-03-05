@@ -30,9 +30,9 @@ collections:
         multiple: true
         create: true
         options: ["Tags", "created", "from", "config.yml"]
-  - label: "Referenzen"
-    name: "projects"
-    folder: "src/projects"
+  - label: "Arbeitsbeispiele"
+    name: "cases"
+    folder: "src/cases"
     create: true
     editor:
       preview: false
