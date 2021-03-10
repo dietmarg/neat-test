@@ -7,7 +7,7 @@ path: home
 <main class="">
   <!-- Hero card -->
   <div class="relative">
-    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
         <div class="absolute inset-0">
           <img class="h-full w-full object-cover" src="/static/img/klee_bg.jpg" alt="People working on laptops">
@@ -75,8 +75,13 @@ path: home
       </svg>
       <h2 class="mb-16 text-xl border-b-2 border-cyan-600 pb-2 px-2 inline-block">Mein Spezialgebiet</h2>
     </div>
-    <div class="grid lg:grid-cols-3 gap-5">
-      {{ frontpage.expertise.title }}
+    <div class="lg:max-w-4xl grid lg:grid-cols-3 gap-2 mx-auto">
+      <div><img src="{{ frontpage.expertise.image }}" alt="" /></div>
+      <div class="col-span-2">
+        <h3>{{ frontpage.expertise.title }}</h3>
+        <p>{{ frontpage.expertise.body | safe }}</p>
+      </div>
+      
 
     </div>
 
