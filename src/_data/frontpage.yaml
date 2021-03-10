@@ -8,3 +8,10 @@ services:
   - title: Lektorieren
     description: Lassen Sie mich Ihre Texte vor der Veröffentlichung inhaltlich,
       stilistisch und formal verbessern.
+expertise:
+  image: /static/img/wwf_expertise.jpg
+  title: Politische Kommunikation
+  body: Komplizierte politische Sachverhalte verständlich darzustellen, ohne sie
+    zu vereinfachen, ist seit vielen Jahren der inhaltliche Kern meiner Arbeit.
+    Davon profitieren Initiativen, Verbände, Behörden, Institutionen, NGOs und
+    Agenturen.
