@@ -18,6 +18,6 @@ mytasks: "Welche Ausmaße hat das Coffee-to-go-Unwesen in Berlin mittlerweile
 result: Seit Herbst 2018 über 80 Artikel auf www.remap-berlin.de
 image: /static/img/zero-waste-blog_01.jpg
 tags:
-  - Schreiben
-  - Webredaktion
+  - schreiben
+  - webredaktion
 ---

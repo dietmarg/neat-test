@@ -25,6 +25,6 @@ mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
 result: Mehrere Dutzend Ausgaben seit Herbst 2011, abrufbar unter www.bundzeit.de
 image: /static/img/bundzeit_teaser.jpg
 tags:
-  - Schreiben
-  - Lektorieren
+  - schreiben
+  - lektorieren
 ---
