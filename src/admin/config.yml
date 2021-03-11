@@ -71,6 +71,13 @@ collections:
               - { label: 'Image', name: 'image', widget: 'image' } 
               - { label: "Title", name: "title", widget: "string" } 
               - { label: "Body", name: "body", widget: "markdown", required: false } 
+          - label: Mein Profil
+            name: profile
+            widget: object
+            fields:
+              - { label: 'Image', name: 'image', widget: 'image' } 
+              - { label: "Title", name: "title", widget: "string" } 
+              - { label: "Body", name: "body", widget: "markdown", required: false }     
   - label: "Settings"
     name: "settings"
     editor:
