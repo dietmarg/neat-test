@@ -23,3 +23,7 @@ body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
   @apply bg-gray-800;
 }
+
+#logo:after {
+  background-image: url(/static/img/icon-clover.svg);
+}

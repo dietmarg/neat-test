@@ -31,7 +31,9 @@ module.exports = {
     extend: {
       colors: {},
       backgroundImage: theme => ({
-        'section-pattern': "url('/static/img/klee_bg.jpg')"
+        'section-pattern': "url('/static/img/klee_bg.jpg')",
+        'clover-dark': "url('/static/img/bg-clover-dark.svg')",
+        'clover': "url('/static/img/bg-clover-big.svg')"
       })
     },
   },
