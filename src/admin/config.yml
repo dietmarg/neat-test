@@ -80,8 +80,9 @@ collections:
               - { label: "Body", name: "body", widget: "markdown", required: false }
           - label: Kontakt
             name: contact
+            widget: object
             fields:
-              - { label: "TextLinks", name: "text-left", widget: 'markdown' } 
+              - { label: "TextLinks", name: "text-left", widget: "markdown" } 
               - { label: "TextRechts", name: "text-right", widget: "markdown" }          
   - label: "Settings"
     name: "settings"
