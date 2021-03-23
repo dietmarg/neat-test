@@ -28,6 +28,9 @@ contact:
   text-left: Sebastian Petrich Franz-Mehring-Platz 1 10243 Berlin
   text-right: Telefon +49 (0)30 55570340<br>E-Mail info \[at]
     text-for-sale.de\<br>USt-IdNr DE262799768
-  textleft: Sebastian Petrich, Franz-Mehring-Platz 1, 10243 Berlin
-  textright: "USt-IdNr: DE262799768, Telefon +49 (0)30 55570340, E-Mail info
-    \\[at] text-for-sale.de"
+  textleft: |-
+    Sebastian Petrich\
+    Franz-Mehring-Platz 1\
+    10243 Berlin
+  textright: "USt-IdNr: DE262799768Telefon +49 (0)30 55570340, E-Mail info \\[at]
+    text-for-sale.de"
