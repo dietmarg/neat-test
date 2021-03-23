@@ -77,7 +77,12 @@ collections:
             fields:
               - { label: 'Image', name: 'image', widget: 'image' } 
               - { label: "Title", name: "title", widget: "string" } 
-              - { label: "Body", name: "body", widget: "markdown", required: false }     
+              - { label: "Body", name: "body", widget: "markdown", required: false }
+          - label: Kontakt
+            name: contact
+            fields:
+              - { label: "TextLinks", name: "text-left", widget: 'markdown' } 
+              - { label: "TextRechts", name: "text-right", widget: "markdown" }          
   - label: "Settings"
     name: "settings"
     editor:
