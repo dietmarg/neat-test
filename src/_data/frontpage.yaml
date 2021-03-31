@@ -5,9 +5,21 @@ services:
     description: Vom Konzept über die Recherche bis zur Ausformulierung übernehme
       ich alle Schritte der Textproduktion, natürlich exklusiv und individuell.
     body: ""
+    icon: pencil
   - title: Lektorieren
     description: Lassen Sie mich Ihre Texte vor der Veröffentlichung inhaltlich,
       stilistisch und formal verbessern.
+    icon: book-open
+  - title: Faktencheck
+    description: "Vom Konzept über die Recherche bis zur Ausformulierung übernehme
+      ich alle Schritte der Textproduktion, natürlich exklusiv und individuell.
+      "
+    icon: search
+  - title: Webredaktion
+    description: "Vom Konzept über die Recherche bis zur Ausformulierung übernehme
+      ich alle Schritte der Textproduktion, natürlich exklusiv und individuell.
+      "
+    icon: desktop-computer
 expertise:
   image: /static/img/wwf_expertise.jpg
   title: Politische Kommunikation
@@ -26,8 +38,10 @@ profile:
     offen"
 contact:
   textleft: |-
-    Sebastian Petrich\
-    Franz-Mehring-Platz 1\
+    Sebastian Petrich<br>
+    Franz-Mehring-Platz 1<br>
     10243 Berlin
-  textright: USt-IdNr DE262799768Telefon +49 (0)30 55570340, E-Mail info \[at]
-    text-for-sale.de
+  textright: |-
+    Telefon +49 (0)30 55570340<br>
+    E-Mail info [at] text-for-sale.de<br>
+    USt-Id DE262799768
