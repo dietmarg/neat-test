@@ -42,6 +42,14 @@ collections:
       - { label: "Meine Aufgabe(n)", name: "mytasks", widget: "markdown" }
       - { label: "Ergebnis", name: "result", widget: "markdown" }
       - { label: 'Image', name: 'img', widget: 'image' }
+      - label: "MainImage"
+        name: mainimg
+        widget: object
+        required: false
+        fields:
+          - { label: 'Image', name: 'main_img', widget: 'image' } 
+          - { label: "Title", name: "title", widget: "string" } 
+          - { label: "Alt", name: "alt", widget: "string" }
       - widget: select
         label: "tags"
         name: "tags"
