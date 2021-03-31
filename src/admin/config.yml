@@ -41,7 +41,14 @@ collections:
       - { label: "Description", name: "description", widget: "markdown" }
       - { label: "Meine Aufgabe(n)", name: "mytasks", widget: "markdown" }
       - { label: "Ergebnis", name: "result", widget: "markdown" }
-      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'TeaserImage', name: 'teaserimg', widget: 'image', media_folder: 'cases' }
+      - label: "MainImage"
+        name: mainimg
+        widget: object
+        fields:
+          - { label: 'Image', name: 'mainimg', widget: 'image', media_folder: 'cases' } 
+          - { label: "Title", name: "title", widget: "string" } 
+          - { label: "Alt", name: "alt", widget: "string" }
       - widget: select
         label: "tags"
         name: "tags"
