@@ -62,7 +62,7 @@ path: home
           <div class="grid grid-cols-3 gap-5 px-4">
           {% for case in cases %}
           <a href="{{ case.url | url }}">
-            <img src="{{ case.data.teaserimg }}" alt="">
+            <img src="{{ case.data.img }}" alt="">
             <p class="text-white">{{ case.data.title }}</p>
           </a>  
           {% endfor %}
