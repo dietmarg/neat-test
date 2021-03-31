@@ -24,7 +24,13 @@ mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
   das Einarbeiten der Korrekturen."
 result: Mehrere Dutzend Ausgaben seit Herbst 2011, abrufbar unter www.bundzeit.de
 image: /static/img/bundzeit_teaser.jpg
+teaserimg: /static/img/bundzeit_teaser.jpg
+mainimg:
+  image: /static/img/bundzeit_teaser.jpg
+  title: Bundzeit
+  alt: Screenshot zeigt die Startseite von Bundzeit
 tags:
   - schreiben
   - lektorieren
+  - webredaktion
 ---
