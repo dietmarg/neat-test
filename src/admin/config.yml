@@ -41,7 +41,7 @@ collections:
       - { label: "Description", name: "description", widget: "markdown" }
       - { label: "Meine Aufgabe(n)", name: "mytasks", widget: "markdown" }
       - { label: "Ergebnis", name: "result", widget: "markdown" }
-      - { label: 'TeaserImage', name: 'img', widget: 'image' }
+      - { label: 'TeaserImage', name: 'teaser_img', widget: 'image', media_folder: '/static/img/cases' }
       - widget: select
         label: "tags"
         name: "tags"
