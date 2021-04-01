@@ -59,14 +59,20 @@ path: home
 
         <h2 class="mb-8 text-xl text-white pb-2 px-2 inline-block border-b-2 border-white tracking-wider">Arbeitsbeispiele</h2>
           {% set cases = collections.cases %}
-          <div class="grid grid-cols-3 gap-5 px-4">
+          <div class="md:grid md:grid-cols-3 gap-11 px-8">
           {% for case in cases %}
           <a href="{{ case.url | url }}">
-            <img src="{{ case.data.img }}" alt="">
-            <div>
-              <p class="text-white">{{ case.data.title }}</p>
-              <p class="text-white"><small>{{ case.data.tasks }}</small></p>
-            </div>
+            <figure class="mx-auto mb-8 md:mb-0">
+              <img src="{{ case.data.img }}" alt="" class="object-cover">
+              <figcaption class="text-white text-left bg-gray-700 p-4 max-w-sm">
+                <p>{{ case.data.title }}</p>
+                {% for task in case.data.tasks %}
+                {% if loop.last %} <span class="capitalize"><small>{{ task }}</small></span>{% else %}
+                  <span class="capitalize"><small>{{ task }}, </small></span>
+                  {% endif %} 
+                {% endfor %}
+              </figcaption>
+            </figure>
           </a>  
           {% endfor %}
         </div>
