@@ -26,17 +26,16 @@ prism: true
           <h2 class="mb-16 text-xl border-b-2 border-cyan-600 pb-2 px-2 inline-block">Weitere Beispiele</h2>
               {% set cases = collections.cases %}
               <div class="grid grid-cols-3 gap-5 px-4">
-                  
               {% for case in cases %}
                 {% if case.data.title != title %}
                     <a href="{{ case.url | url }}">
-                        <img src="{{ case.data.image }}" alt="">
-                        <p class="text-white">{{ case.data.title }}</p>
+                        <img src="{{ case.data.img }}" alt="">
+                        <p class="text-gray-700">{{ case.data.title }}</p>
                     </a>  
                 {% endif %}
               {% endfor %}
             </div>
           </div>
       </section>
-
+      
 </div>
