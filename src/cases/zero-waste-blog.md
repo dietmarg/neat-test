@@ -25,4 +25,7 @@ mainimg:
 tags:
   - webredaktion
   - faktencheck
+tasks:
+  - faktencheck
+  - webredaktion
 ---
