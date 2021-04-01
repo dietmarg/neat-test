@@ -22,6 +22,7 @@ mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
   Gestaltung übernimmt auf ebenso solide wie kreative Art Claudia Winter von
   sujet design. Im letzten Arbeitsschritt organisiere ich das Korrekturlesen und
   das Einarbeiten der Korrekturen."
+<<<<<<< HEAD
 result: Mehrere Dutzend Ausgaben seit Herbst 2011, abrufbar unter
   [www.bundzeit.de](https://www.bundzeit.de)
 img: /static/img/bundzeit_teserimg.jpg
@@ -33,4 +34,17 @@ tags:
   - schreiben
   - lektorieren
   - faktencheck
+=======
+result: Mehrere Dutzend Ausgaben seit Herbst 2011, abrufbar unter www.bundzeit.de
+image: /static/img/bundzeit_teaser.jpg
+teaserimg: /static/img/bundzeit_teaser.jpg
+mainimg:
+  image: /static/img/bundzeit_teaser.jpg
+  title: Bundzeit
+  alt: Screenshot zeigt die Startseite von Bundzeit
+tags:
+  - schreiben
+  - lektorieren
+  - webredaktion
+>>>>>>> b58a38a37560158bd70fe82fcb51fb1f2ffcc0a3
 ---
