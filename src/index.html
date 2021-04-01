@@ -63,7 +63,10 @@ path: home
           {% for case in cases %}
           <a href="{{ case.url | url }}">
             <img src="{{ case.data.img }}" alt="">
-            <p class="text-white">{{ case.data.title }}</p>
+            <div>
+              <p class="text-white">{{ case.data.title }}</p>
+              <p class="text-white"><small>{{ case.data.tasks }}</small></p>
+            </div>
           </a>  
           {% endfor %}
         </div>
