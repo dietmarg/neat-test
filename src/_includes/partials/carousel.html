@@ -22,6 +22,10 @@
           slidesPerView: 3,
           spaceBetween: 0,
         },
+        1280: {
+            slidesPerView: 4,
+            spaceBetween: 0,
+          },
       },
     })"
   class="relative w-10/12 mx-auto flex flex-row"
@@ -39,22 +43,23 @@
       <!-- Slides -->
       {% set cases = collections.cases %}
       {% for case in cases %}
-      <a href="{{ case.url | url }}">
+      
         <div class="swiper-slide p-4">
             <div class="flex flex-col rounded shadow overflow-hidden">
+                <a href="{{ case.url | url }}">
                 <div class="flex-shrink-0">
                 <img class="h-48 w-full object-cover" src="{{ case.data.img }}" alt="">
-                <div class="text-white text-left bg-gray-700 p-4 max-w-sm">
+                <div class="text-white text-left bg-gray-700 p-4">
                     <p>{{ case.data.title }}</p>
                     {% for task in case.data.tasks %}
-                {% if loop.last %} <span class="capitalize"><small>{{ task }}</small></span>{% else %}
-                  <span class="capitalize"><small>{{ task }}, </small></span>
-                  {% endif %} 
-                {% endfor %}
+                        {% if loop.last %} <span class="capitalize"><small>{{ task }}</small></span>{% else %}
+                         <span class="capitalize"><small>{{ task }}, </small></span>
+                        {% endif %} 
+                     {% endfor %}
                 </div>
-                </div>
+                </div></a>
             </div>
-        </div></a>
+        </div>
       {% endfor %} 
 
       {# <div class="swiper-slide p-4">
@@ -71,7 +76,15 @@
             <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1598946423291-ce029c687a42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" alt="">
           </div>
         </div>
-      </div> #}
+      </div> 
+      
+      <div class="swiper-slide p-4">
+        <div class="flex flex-col rounded shadow overflow-hidden">
+          <div class="flex-shrink-0">
+            <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1598946423291-ce029c687a42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" alt="">
+          </div>
+        </div>
+      </div>  #}
     </div>
   </div>
 
