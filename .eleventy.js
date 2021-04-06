@@ -36,6 +36,8 @@ module.exports = function (eleventyConfig) {
     "./node_modules/alpinejs/dist/alpine.js": "./static/js/alpine.js",
     "./node_modules/prismjs/themes/prism-tomorrow.css":
       "./static/css/prism-tomorrow.css",
+    "./node_modules/swiper/swiper-bundle.js": "./static/js/swiper-bundle.js",
+    "./node_modules/swiper/swiper.min.css": "./static/css/swiper-bundle.css",   
   });
 
   // Copy Image Folder to /_site
