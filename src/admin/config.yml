@@ -41,7 +41,7 @@ collections:
       - { label: "Description", name: "description", widget: "markdown" }
       - { label: "Meine Aufgabe(n)", name: "mytasks", widget: "markdown" }
       - { label: "Ergebnis", name: "result", widget: "markdown" }
-      - { label: 'Image', name: 'img', widget: 'image' }
+      - { label: 'Image', name: 'img', widget: 'image', default: '/static/img/klee_teaser_default.jpg', required: false }
       - label: "MainImage"
         name: mainimg
         widget: object
