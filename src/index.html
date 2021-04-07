@@ -54,7 +54,13 @@ path: home
           <div
                     style="background-color: rgba(0, 0, 0, .5)" 
                     class="mx-auto absolute top-80 left-0 w-full h-full flex items-center shadow-lg overflow-y-auto"   
-                    x-show="isOpen"       
+                    x-show="isOpen"
+                    x-transition:enter="transition ease-out duration-300"
+                    x-transition:enter-start="opacity-0"
+                    x-transition:enter-end="opacity-100"
+                    x-transition:leave="transition ease-out duration-100"
+                    x-transition:leave-start="opacity-100"
+                    x-transition:leave-end="opacity-0"        
                 >
                     <div class="container md:w-2/3 xl:max-w-3xl mx-auto rounded p-4 mt-2 overflow-y-auto">
                         <div class="bg-white rounded px-8 py-8">
