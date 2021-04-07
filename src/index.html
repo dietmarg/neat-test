@@ -40,10 +40,42 @@ path: home
       {% for service in frontpage.services %}
         {% if loop.index0 < 4 %}
 
-          <div class="border-l border-b border-r border-gray-200 max-w-md mx-auto rounded">
+        <div 
+        class="border-l border-b border-r border-gray-200 max-w-md mx-auto rounded cursor-pointer"
+        x-data="{ isOpen: false }"
+        >
+          <div
+          @click="isOpen = true"
+          >
             <div class="bg-cyan-600 text-white text-center text-lg p-4 rounded-t">{% if service.title %}<img src='/static/img/{{ service.icon}}.svg' class="inline-block w-5 h-5 "/> {{ service.title}}{% endif %}</div>
             <div class="p-6"><p>{% if service.description %}{{ service.description|safe }} {% endif %}</p></div>
           </div>
+          {% if service.body %}
+          <div
+                    style="background-color: rgba(0, 0, 0, .5)" 
+                    class="mx-auto absolute top-80 left-0 w-full h-full flex items-center shadow-lg overflow-y-auto"   
+                    x-show="isOpen"       
+                >
+                    <div class="container md:w-2/3 xl:max-w-3xl mx-auto rounded p-4 mt-2 overflow-y-auto">
+                        <div class="bg-white rounded px-8 py-8">
+                            <h1 class="font-bold text-2xl mb-3">{{ service.title}}</h1>
+                            <div class="modal-body">
+                                {{ service.body }}     
+                            </div>
+                            <div class="mt-4">
+                                <button 
+                                    class="bg-blue-700 text-white px-4 py-3 mt-4 text-sm rounded"
+                                    @click="isOpen = false"
+                                    x-ref="modalCloseButton"
+                                >
+                                    Schließen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>    
+          {% endif %}
         {% endif %}
       {% endfor %}
     </div>
