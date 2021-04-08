@@ -1,9 +1,9 @@
 items:
   - text: Referenzen
-    url: /referenzen
-  - text: Menu Two
+    url: /#cases
+  - text: Kontakt
+    url: /#kontakt
+  - text: Netzwerk
     url: "#"
-  - text: Menu Drei
+  - text: English
     url: "#"
-  - text: Blog
-    url: /blog
