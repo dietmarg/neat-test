@@ -51,7 +51,7 @@
         <div class="swiper-slide p-4">
             <div class="flex flex-col rounded shadow overflow-hidden">
                 <a href="{{ case.url | url }}">
-                <div class="flex-shrink-0">
+                <div class="flex-shrink-0 transition duration-300 ease-in-out hover:shadow-md transform hover:scale-105">
                 <img class="h-48 w-full object-cover" src="{{ case.data.img }}" alt="">
                 <div class="text-white text-left bg-gray-700 p-4">
                     <p>{{ case.data.title }}</p>
