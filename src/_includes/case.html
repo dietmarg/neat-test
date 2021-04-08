@@ -8,13 +8,13 @@ prism: true
     <article class="prose lg:prose-xl my-4 mx-auto">
         <img src="{{ mainimg.main_img }}" alt="{{ mainimg.alt }}"  class="shadow-md" />
         <h1 class="text-left text-gray-700">{{title}}</h1>
-        <p>{{ description | safe }}</p>
+        <p>{{ description | md | safe }}</p>
         <h4>Meine Aufgabe(n)</h4>
-        <p>{{ mytasks | safe }}</p>
+        <p>{{ mytasks | md | safe }}</p>
         <h4>Ergebnis</h4>
-        <p>{{ result }}</p>
+        <p>{{ result | md | safe }}</p>
 
-        {{ content | safe }}</article>
+        {{ content | md | safe }}</article>
 
         <!-- Cases 2 -->
   
