@@ -3,6 +3,26 @@ const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 const markdownIt = require("markdown-it");
+/* const Image = require("@11ty/eleventy-img");
+
+async function imageShortcode(src, alt, sizes) {
+  let metadata = await Image(src, {
+    widths: [357, 700, 1217],
+    formats: ["webp", "jpeg", "svg"]
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes, {
+    whitespaceMode: "inline"
+  });
+} */
 
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
@@ -55,6 +75,10 @@ module.exports = function (eleventyConfig) {
   // Copy `css/fonts/` to `_site/css/fonts`
   eleventyConfig.addPassthroughCopy("./src/static/fonts");
 
+  // eleventy-img
+  // eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+  // eleventyConfig.addLiquidShortcode("image", imageShortcode);
+  // eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
   // Minify HTML
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
