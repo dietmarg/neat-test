@@ -28,18 +28,11 @@
                 <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center">
                     
                     {% for item in navigation.items %}
-                        <!-- {% if loop.last %} 
-                        <li class="nav__item">
-                            <a @click="isOpen = false" class="text-ml inline-block text-white no-underline hover:text-cyan-200 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
-                        </li>
-                        {% else %}
-                        <li class="nav__item mr-3">
-                            <a @click="isOpen = false" class="text-ml inline-block text-white no-underline hover:text-cyan-200 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
-                        </li>
-                        {% endif %} -->
+
                         <li class="nav__item {% if loop.last %}mr-0{% else %}mr-3{% endif %}">
                             <a @click="isOpen = false" class="text-ml inline-block text-white no-underline hover:text-cyan-200 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
                         </li>
+
                     {% endfor %}
                 </ul>
 
