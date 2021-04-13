@@ -4,6 +4,6 @@ items:
   - text: Kontakt
     url: /#kontakt
   - text: Netzwerk
-    url: "#"
+    url: /network
   - text: English
     url: "#"
