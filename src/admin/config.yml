@@ -105,6 +105,12 @@ collections:
         file: "src/_data/imprint.yaml"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Text, name: text, widget: markdown}          
+      - label: Netzwerk
+        name: network
+        file: "src/_data/network.yaml"
+        fields:
+          - {label: Title, name: title, widget: string}
           - {label: Text, name: text, widget: markdown}               
   - label: "Settings"
     name: "settings"
