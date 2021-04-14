@@ -13,6 +13,10 @@ services:
 
       Falls Sie noch nicht wissen, wie Ihre Publikation aufgebaut sein soll, erarbeite ich Ihnen ein **Konzept**. Beim Schreiben stütze ich mich auf Ihre Informationen oder stelle eigene **Recherchen** an, wobei ich die Quellen säuberlich dokumentiere. Und selbstverständlich schlage ich den zielgruppengerechten Ton an.
     icon: pencil
+    servicerelprojects:
+      - Brockhaus Jahrbuch
+      - WWF-Studien
+      - Zero-Waste-Blog
   - title: Lektorieren
     description: Lassen Sie mich Ihre Texte vor der Veröffentlichung inhaltlich,
       stilistisch und formal verbessern.
@@ -69,8 +73,8 @@ profile:
     offen"
 contact:
   textleft: |-
-    Sebastian Petrich<br>
-    Franz-Mehring-Platz 1<br>
+    Sebastian Petrich\
+    Franz-Mehring-Platz 1\
     10243 Berlin
   textright: |-
     Telefon +49 (0)30 55570340<br>
