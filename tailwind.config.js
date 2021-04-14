@@ -20,7 +20,12 @@ module.exports = {
       yellow: colors.amber,
       cyan: colors.cyan,
       white: colors.white,
-      black: colors.black
+      black: colors.black,
+      green: {
+        light: '#7BB149',
+        DEFAULT: '#2D5F0E',
+        dark: '#143707',
+      },
     },
     fontFamily: {
       'sans': 'Roboto, Helvetica, Arial, sans-serif',
