@@ -103,7 +103,8 @@ collections:
             fields:
               - { label: 'Image', name: 'image', widget: 'image' } 
               - { label: "Title", name: "title", widget: "string" } 
-              - { label: "Body", name: "body", widget: "markdown", required: false }
+              - { label: "Body", name: "body", widget: "markdown", required: true }
+              - { label: "ErweiterterText", name: "addtext", widget: "markdown", required: false }
           - label: Kontakt
             name: contact
             widget: object
