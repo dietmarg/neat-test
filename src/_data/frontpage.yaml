@@ -14,9 +14,9 @@ services:
       Falls Sie noch nicht wissen, wie Ihre Publikation aufgebaut sein soll, erarbeite ich Ihnen ein **Konzept**. Beim Schreiben stütze ich mich auf Ihre Informationen oder stelle eigene **Recherchen** an, wobei ich die Quellen säuberlich dokumentiere. Und selbstverständlich schlage ich den zielgruppengerechten Ton an.
     icon: pencil
     servicerelprojects:
-      - Brockhaus Jahrbuch
       - WWF-Studien
       - Zero-Waste-Blog
+      - BUNDzeit
   - title: Lektorieren
     description: Lassen Sie mich Ihre Texte vor der Veröffentlichung inhaltlich,
       stilistisch und formal verbessern.
@@ -32,6 +32,10 @@ services:
 
 
       Bei der **Schlussredaktion** hingegen ist es zu spät für stilistische und inhaltliche Verbesserungen. Wenn der Text erst einmal gesetzt ist, markiere ich die verbliebenen Tippfehler, überprüfe Eigennamen und Links und werfe einen besonders kritischen Blick auf Überschriften, Bildlegenden und Zeilenumbrüche.
+    servicerelprojects:
+      - Zero-Waste-Blog
+      - WWF-Studien
+      - BUNDzeit
   - title: Faktencheck
     description: "Vom Konzept über die Recherche bis zur Ausformulierung übernehme
       ich alle Schritte der Textproduktion, natürlich exklusiv und individuell.
