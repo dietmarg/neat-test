@@ -31,3 +31,8 @@ body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
   @apply bg-gray-800;
 }
+
+/* Heroicons */
+[data-heroicon-name] {
+  @apply inline-block h-5 w-5;
+}

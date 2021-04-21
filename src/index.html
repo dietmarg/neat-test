@@ -10,111 +10,178 @@ path: home
     <div class="w-full mx-auto">
       <div class="relative shadow-xl sm:overflow-hidden">
         <div class="absolute inset-0">
-          <img class="h-full w-full object-cover" src="/static/img/klee_bg.jpg" alt="green clover background">
-          <div class="absolute inset-0 bg-indigo-700  bg-gradient-to-b from-gray-600 to-gray-400" style="mix-blend-mode: multiply;"></div>
+          <img
+            class="h-full w-full object-cover"
+            src="/static/img/klee_bg.jpg"
+            alt="green clover background"
+          />
+          <div
+            class="absolute inset-0 bg-indigo-700 bg-gradient-to-b from-gray-600 to-gray-400"
+            style="mix-blend-mode: multiply"
+          ></div>
         </div>
-        <div class="max-w-7xl mx-auto relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+        <div
+          class="max-w-7xl mx-auto relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8"
+        >
           <div class="py-8 w-4/5 mx-auto">
-            <h1 class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl  border-b-2 border-white pb-4 mx-6">
-              <span class="block text-white">{% if frontpage.title %}{{ frontpage.title }}{% endif %}</span>
+            <h1
+              class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl border-b-2 border-white pb-4 mx-6"
+            >
+              <span class="block text-white"
+                >{% if frontpage.title %}{{ frontpage.title }}{% endif %}</span
+              >
             </h1>
-            <p class="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl">
+            <p
+              class="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl"
+            >
               {% if frontpage.subline %}{{ frontpage.subline|safe }}{% endif %}
             </p>
-        </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Leistungen -->
-  <section class="mx-auto px-4 py-4 bg-white lg:py-8 lg:px-8 md:max-w-sreen-md lg:max-w-7xl">
+  <section
+    class="mx-auto px-4 py-4 bg-white lg:py-8 lg:px-8 md:max-w-sreen-md lg:max-w-7xl"
+  >
     <div class="text-center mx-auto">
-    
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="60" height="60" class="mx-auto mb-2 text-cyan-600">
-        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        width="60"
+        height="60"
+        class="mx-auto mb-2 text-cyan-600"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+          clip-rule="evenodd"
+        />
       </svg>
-      <h2 class="mb-16 text-xl border-b-2 border-cyan-600 pb-2 px-2 inline-block">Was kann ich für Sie tun?</h2>
+      <h2
+        class="mb-16 text-xl border-b-2 border-cyan-600 pb-2 px-2 inline-block"
+      >
+        Was kann ich für Sie tun?
+      </h2>
     </div>
-    <div class="grid gap-5  md:grid-cols-2 lg:grid-cols-4">
-      {% for service in frontpage.services %}
-        {% if loop.index0 < 4 %}
+    <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+      {% for service in frontpage.services %} {% if loop.index0 < 4 %}
 
-        <div 
+      <div
         class="border-l border-b border-r border-gray-200 max-w-md mx-auto rounded cursor-pointer transition duration-300 ease-in-out hover:shadow-md"
         x-data="{ isOpen: false }"
+      >
+        <div @click="isOpen = true">
+          <div class="bg-cyan-600 text-white text-center text-lg p-4 rounded-t">
+            {% if service.title %}<img
+              src="/static/img/{{ service.icon}}.svg"
+              class="inline-block w-5 h-5"
+            />
+            {{ service.title}}{% endif %}
+          </div>
+          <div class="p-6">
+            <p>
+              {% if service.description %}{{ service.description|safe }} {%
+              endif %}
+            </p>
+          </div>
+        </div>
+        {% if service.body %}
+        <!-- Modal -->
+        <div
+          style="background-color: rgba(0, 0, 0, 0.5)"
+          class="mx-auto fixed top-0 left-0 w-full h-screen flex items-center shadow-lg overflow-y-auto bg-cover z-50"
+          x-show="isOpen"
+          x-transition:enter="transition ease-out duration-300"
+          x-transition:enter-start="opacity-0"
+          x-transition:enter-end="opacity-100"
+          x-transition:leave="transition ease-out duration-100"
+          x-transition:leave-start="opacity-100"
+          x-transition:leave-end="opacity-0"
         >
           <div
-          @click="isOpen = true"
+            @click.away="isOpen = false"
+            class="container md:w-2/3 xl:max-w-3xl mx-auto rounded p-4 mt-2 overflow-y-auto cursor-default absolute top-0 left-1/2 transform -translate-x-1/2"
           >
-            <div class="bg-cyan-600 text-white text-center text-lg p-4 rounded-t">{% if service.title %}<img src='/static/img/{{ service.icon}}.svg' class="inline-block w-5 h-5"/> {{ service.title}}{% endif %}</div>
-            <div class="p-6"><p>{% if service.description %}{{ service.description|safe }} {% endif %}</p></div>
-          </div>
-          {% if service.body %}
-            <div
-                    style="background-color: rgba(0, 0, 0, .5)" 
-                    class="mx-auto fixed top-0 left-0  w-full h-screen flex items-center shadow-lg overflow-y-auto bg-cover z-50"   
-                    x-show="isOpen"
-                    x-transition:enter="transition ease-out duration-300"
-                    x-transition:enter-start="opacity-0"
-                    x-transition:enter-end="opacity-100"
-                    x-transition:leave="transition ease-out duration-100"
-                    x-transition:leave-start="opacity-100"
-                    x-transition:leave-end="opacity-0"        
+            <div class="bg-white rounded px-8 py-8 relative">
+              <!-- close modal icon -->
+              <div class="absolute top-5 right-5 text-cyan-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-7 w-7 cursor-pointer"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  @click="isOpen = false"
+                  x-ref="modalCloseButton"
                 >
-                    <div 
-                      @click.away="isOpen = false" 
-                      class="container md:w-2/3 xl:max-w-3xl mx-auto rounded p-4 mt-2 overflow-y-auto cursor-default absolute top-0 left-1/2 transform -translate-x-1/2"
-                    >
-                        <div class="bg-white rounded px-8 py-8">
-                            <h2 class="font-bold text-2xl text-cyan-600 mb-3 text-center">{{ service.title}}</h2>
-                            <div class="modal-body">
-                                {{ service.body | md | safe }}     
-                            </div>
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
 
-                            <!-- Beispiele Relations -->
-                            <section class="mx-auto mt-16 px-4 py-4 lg:py-8 lg:px-8 md:max-w-sreen-md lg:max-w-7xl">
-                            <div class="text-center mx-auto py-8">
-                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="60" height="60" class="mx-auto mb-2 text-cyan-600">
-                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                              </svg>
-                              <h2 class="mb-16 text-xl border-b-2 border-cyan-600 pb-2 px-2 inline-block">Beispielprojekte</h2>
-                                  {% set cases = collections.cases %}
-                                  <div class="grid grid-cols-3 gap-5 px-4">
-                                  {% for case in cases %}
-                                    {% if case.data.title != title %}
-                                    {% set items = service.servicerelprojects %}
-                                    {% for item in items %}
-                                    {% if item == case.data.title %}
-                                        <a href="{{ case.url | url }}">
-                                            <img src="{{ case.data.img }}" alt="">
-                                            <p class="text-gray-700">{{ case.data.title }}</p>
-                                        </a>  
-                                        {% endif %}
-                                        {% endfor %}
-                                    {% endif %}
-                                  {% endfor %}
-                                </div>
-                              </div>
-                          </section>
+              <h2 class="font-bold text-2xl text-cyan-600 my-7 text-center">
+                {{ service.title}}
+              </h2>
+              <div class="modal-body">{{ service.body | md | safe }}</div>
 
-
-                            <div class="mt-4">
-                                <button 
-                                    class="bg-cyan-600 text-white px-4 py-3 mt-4 text-sm rounded"
-                                    @click="isOpen = false"
-                                    x-ref="modalCloseButton"
-                                >
-                                    Schließen
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+              <!-- Beispiele Relations -->
+              <section
+                class="mx-auto px-4 py-4 lg:py-8 lg:px-8 md:max-w-sreen-md lg:max-w-7xl"
+              >
+                <div class="text-center mx-auto py-8">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    width="60"
+                    height="60"
+                    class="mx-auto mb-2 text-cyan-600"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <h2
+                    class="mb-16 text-xl border-b-2 border-cyan-600 pb-2 px-2 inline-block"
+                  >
+                    Beispielprojekte
+                  </h2>
+                  {% set cases = collections.cases %}
+                  <div class="grid grid-cols-3 gap-5 px-4">
+                    {% for case in cases %} {% if case.data.title != title %} {%
+                    set items = service.servicerelprojects %} {% for item in
+                    items %} {% if item == case.data.title %}
+                    <a href="{{ case.url | url }}" class=" transition duration-100 ease-in-out transform hover:scale-105">
+                      <img src="{{ case.data.img }}" alt="" class="h-32 w-64" />
+                      <p class="text-gray-700">{{ case.data.title }}</p>
+                    </a>
+                    {% endif %} {% endfor %} {% endif %} {% endfor %}
+                  </div>
                 </div>
-              </div>  
-          {% endif %}
-        {% endif %}
-      {% endfor %}
+              </section>
+
+              <div class="mt-4">
+                <button
+                  class="bg-cyan-600 text-white px-4 py-2 mt-4 text-sm align-middle rounded"
+                  @click="isOpen = false"
+                  x-ref="modalCloseButton"
+                >
+                  {% heroicon "solid", "x", "Close menu" %} Schließen
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %} {% endif %} {% endfor %}
     </div>
   </section>
 
@@ -124,15 +191,36 @@ path: home
 
   <!-- Spezialgebiet -->
 
-  <section class="mx-auto px-4 py-4 lg:py-8 lg:px-8 md:max-w-sreen-md lg:max-w-7xl">
+  <section
+    class="mx-auto px-4 py-4 lg:py-8 lg:px-8 md:max-w-sreen-md lg:max-w-7xl"
+  >
     <div class="text-center mx-auto">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="60" height="60" class="mx-auto mb-2 text-cyan-600">
-        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        width="60"
+        height="60"
+        class="mx-auto mb-2 text-cyan-600"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+          clip-rule="evenodd"
+        />
       </svg>
-      <h2 class="mb-16 text-xl border-b-2 border-cyan-600 pb-2 px-2 inline-block">Mein Spezialgebiet</h2>
+      <h2
+        class="mb-16 text-xl border-b-2 border-cyan-600 pb-2 px-2 inline-block"
+      >
+        Mein Spezialgebiet
+      </h2>
     </div>
-    <div class="text-center md:text-left lg:max-w-4xl md:grid md:grid-cols-3 gap-2 mx-auto">
-      <div class="mb-4"><img src="{{ frontpage.expertise.image }}" alt="" class="mx-auto" /></div>
+    <div
+      class="text-center md:text-left lg:max-w-4xl md:grid md:grid-cols-3 gap-2 mx-auto"
+    >
+      <div class="mb-4">
+        <img src="{{ frontpage.expertise.image }}" alt="" class="mx-auto" />
+      </div>
       <div class="col-span-2">
         <h3>{{ frontpage.expertise.title }}</h3>
         <p>{{ frontpage.expertise.body | md | safe }}</p>
@@ -141,60 +229,115 @@ path: home
   </section>
 
   <!-- Profil -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="60" height="60" class="mx-auto mb-2 text-cyan-600">
-    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+    fill="currentColor"
+    width="60"
+    height="60"
+    class="mx-auto mb-2 text-cyan-600"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+      clip-rule="evenodd"
+    />
   </svg>
   <section class="mx-auto py-4 lg:py-8 md:max-w-sreen-md">
-    <div class="w-full text-center text-white mx-auto py-8 bg-cover" style="background-image: linear-gradient(rgb(51,51,51,0.9)
-    , rgb(51,51,51,0.5)),url(/static/img/klee_bg.jpg)"
+    <div
+      class="w-full text-center text-white mx-auto py-8 bg-cover"
+      style="
+        background-image: linear-gradient(
+            rgb(51, 51, 51, 0.9),
+            rgb(51, 51, 51, 0.5)
+          ),
+          url(/static/img/klee_bg.jpg);
+      "
     >
-      <!--  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="60" height="60" class="mx-auto mb-2 text-cyan-600">
-        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-      </svg> -->
-      <h2 class="mb-16 text-xl border-b-2 text-white border-white pb-2 px-2 inline-block">Mein Profil</h2>
-    
-    <div 
-      class="md:text-left lg:max-w-4xl md:grid md:grid-cols-4 gap-2 px-4 lg:px-0 mx-auto"  
-      x-data="{ isOpen: false }"
-    >
-      <div><img src="{{ frontpage.profile.image }}" alt="" class="rounded-full h-48 mx-auto" /></div>
-      <div class="col-span-3">
-        <h3>{{ frontpage.profile.title }}</h3>
-        <p>{{ frontpage.profile.body | md | safe }}</p>
-        {% if frontpage.profile.addtext %}
-          <button x-show="!isOpen" @click="isOpen = true" class="cursor-pointer text-sm bg-cyan-600 hover:bg-cyan-800 rounded px-4 py-2">Mehr lesen <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-          </svg></button>
+      <h2
+        class="mb-16 text-xl border-b-2 text-white border-white pb-2 px-2 inline-block"
+      >
+        Mein Profil
+      </h2>
+
+      <div
+        class="md:text-left lg:max-w-4xl md:grid md:grid-cols-4 gap-2 px-4 lg:px-0 mx-auto"
+        x-data="{ isOpen: false }"
+      >
+        <div>
+          <img
+            src="{{ frontpage.profile.image }}"
+            alt=""
+            class="rounded-full h-48 mx-auto"
+          />
+        </div>
+        <div class="col-span-3">
+          <h3>{{ frontpage.profile.title }}</h3>
+          <p>{{ frontpage.profile.body | md | safe }}</p>
+          {% if frontpage.profile.addtext %}
+          <button
+            x-show="!isOpen"
+            @click="isOpen = true"
+            class="cursor-pointer text-sm bg-cyan-600 hover:bg-cyan-800 rounded px-4 py-2"
+          >
+            Mehr lesen {% heroicon "solid", "chevron-right", "Aufklappen" %}
+          </button>
           {% endif %}
-        <div 
-          x-show="isOpen"
-        >
-          <p>{{ frontpage.profile.addtext | md | safe }}</p>
-          <button @click="isOpen = false" class="cursor-pointer text-sm bg-cyan-600 hover:bg-cyan-800 rounded px-4 py-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
-          </svg> Verkleinern</button>
-        </div>  
+          <div
+            x-show="isOpen"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="opacity-0"
+            x-transition:enter-end="opacity-100"
+          >
+            <p>{{ frontpage.profile.addtext | md | safe }}</p>
+            <button
+              @click="isOpen = false"
+              class="cursor-pointer text-sm bg-cyan-600 hover:bg-cyan-800 rounded px-4 py-2"
+            >
+            {% heroicon "solid", "chevron-left", "Zuklappen" %} Verkleinern
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
   </section>
-
 
   <!-- Kontakt -->
 
-  <section id="kontakt" class="mx-auto px-4 py-4 lg:py-8 lg:px-8 md:max-w-sreen-md lg:max-w-7xl">
+  <section
+    id="kontakt"
+    class="mx-auto px-4 py-4 lg:py-8 lg:px-8 md:max-w-sreen-md lg:max-w-7xl"
+  >
     <div class="text-center mx-auto">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="60" height="60" class="mx-auto mb-2 text-cyan-600">
-        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        width="60"
+        height="60"
+        class="mx-auto mb-2 text-cyan-600"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+          clip-rule="evenodd"
+        />
       </svg>
-      <h2 class="mb-16 text-xl border-b-2 border-cyan-600 pb-2 px-2 inline-block">Kontakt</h2>
+      <h2
+        class="mb-16 text-xl border-b-2 border-cyan-600 pb-2 px-2 inline-block"
+      >
+        Kontakt
+      </h2>
     </div>
-    <div class="text-center md:text-left md:max-w-xl md:grid md:grid-cols-2 gap-2 mx-auto">
-      <div class="mb-4"><p>{{ frontpage.contact.textleft | md | safe }}</p></div>
-      <div >
+    <div
+      class="text-center md:text-left md:max-w-xl md:grid md:grid-cols-2 gap-2 mx-auto"
+    >
+      <div class="mb-4">
+        <p>{{ frontpage.contact.textleft | md | safe }}</p>
+      </div>
+      <div>
         <p>{{ frontpage.contact.textright | md | safe }}</p>
       </div>
     </div>
   </section>
-
 </main>
