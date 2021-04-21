@@ -1,47 +1,137 @@
-<div class="{{ 'md:fixed md:top-0 z-40' if path == 'home' }} w-full bg-gray-700">
-    <nav class="lg:max-w-7xl flex items-center justify-center lg:justify-between flex-wrap p-2 lg:px-4 container mx-auto shadow-xl z-30" x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
-        <!--Logo etc-->
-        <div class="flex lg:flex-1 items-center" id="logo">
-            <a href="/" class="text-white text-lg">
-                TEXT FOR SALE</a>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 100 100"><g transform="translate(50 50) scale(0.69 0.69) rotate(15) translate(-50 -50)"><svg class="text-green-light" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 100 100" x="0px" y="-25px"><title>Clover</title><path d="M83.92786,44.76546a10.92187,10.92187,0,0,0-4.88965-5.79785,11.00861,11.00861,0,0,0-9.35059-19.8584,11.00842,11.00842,0,0,0-19.6875-9.77442,11.00838,11.00838,0,0,0-19.6875,9.77442A11.00861,11.00861,0,0,0,20.962,38.96761,11.00861,11.00861,0,0,0,30.31262,58.826a11.00483,11.00483,0,0,0,18.3888,11.58673c-.88831,7.69171-3.24561,17.25634-9.19739,24.15545a.99981.99981,0,1,0,1.51367,1.30664c6.55164-7.59417,8.97546-17.96069,9.80884-26.04211A11.0042,11.0042,0,0,0,69.68762,58.826,11.00792,11.00792,0,0,0,83.92786,44.76546ZM31.97278,11.70784a9.00813,9.00813,0,0,1,16.6289-.72558,7.47,7.47,0,0,1,.42871,1.292.99967.99967,0,0,0,1.93946,0,7.47,7.47,0,0,1,.42871-1.292,9.00791,9.00791,0,1,1,16.32812,7.61328,21.0365,21.0365,0,0,1-2.98108,3.93652L50.00012,37.54079,35.25464,22.532a20.98844,20.98844,0,0,1-2.98108-3.93646A8.94838,8.94838,0,0,1,31.97278,11.70784Zm-1.75,44.98633A9.00812,9.00812,0,0,1,22.60852,40.366a7.47643,7.47643,0,0,1,1.292-.42871.99967.99967,0,0,0,0-1.93945,7.3578,7.3578,0,0,1-1.29-.42871h-.001A9.00791,9.00791,0,1,1,30.22278,21.241a19.44979,19.44979,0,0,1,3.61792,2.70545L48.59839,38.96761,33.8407,53.98879A19.35587,19.35587,0,0,1,30.22278,56.69417ZM63.36926,71.31038A9.01951,9.01951,0,0,1,51.39856,66.953a7.4588,7.4588,0,0,1-.42871-1.291.99936.99936,0,0,0-1.93946,0,7.45794,7.45794,0,0,1-.42871,1.291A9.00811,9.00811,0,1,1,32.27356,59.3387a21.07352,21.07352,0,0,1,2.98877-3.94342L50.00012,40.39443,64.73791,55.39528a21.08988,21.08988,0,0,1,2.98877,3.9444A9.018,9.018,0,0,1,63.36926,71.31038ZM81.74817,52.33675a9.00808,9.00808,0,0,1-11.97168,4.35742,19.40139,19.40139,0,0,1-3.61694-2.70538L51.40185,38.96761l14.7577-15.02112A19.44943,19.44943,0,0,1,69.77747,21.241a9.00791,9.00791,0,1,1,7.61328,16.32813,7.47129,7.47129,0,0,1-1.292.42871.99967.99967,0,0,0,0,1.93945,7.50526,7.50526,0,0,1,1.292.42871,9.00738,9.00738,0,0,1,4.35742,11.97071Z"></path></svg></g></svg>
-        </div>
-
-        <div class="sm:flex lg:flex-1 lg:items-center justify-center mx-auto hidden"><span class="text-white"><svg xmlns="http://www.w3.org/2000/svg" class="inline-block h-5 w-5" viewBox="0 0 20 20" fill="currentColor" alt="phone">
-            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+<div
+  class="{{ 'md:fixed md:top-0 z-40' if path == 'home' }} w-full bg-gray-700"
+>
+  <nav
+    class="lg:max-w-7xl flex items-center justify-center lg:justify-between flex-wrap p-2 lg:px-4 container mx-auto shadow-xl z-30"
+    x-data="{ isOpen: false }"
+    @keydown.escape="isOpen = false"
+  >
+    <!--Logo etc-->
+    <div class="flex lg:flex-1 items-center" id="logo">
+      <a href="/" class="text-white text-lg"> TEXT FOR SALE</a>
+      <!-- Klee Icon -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="40"
+        height="40"
+        viewBox="0 0 100 100"
+      >
+        <g
+          transform="translate(50 50) scale(0.69 0.69) rotate(15) translate(-50 -50)"
+        >
+          <svg
+            class="text-green-light"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+            data-name="Layer 1"
+            viewBox="0 0 100 100"
+            x="0px"
+            y="-25px"
+          >
+            <title>Clover</title>
+            <path
+              d="M83.92786,44.76546a10.92187,10.92187,0,0,0-4.88965-5.79785,11.00861,11.00861,0,0,0-9.35059-19.8584,11.00842,11.00842,0,0,0-19.6875-9.77442,11.00838,11.00838,0,0,0-19.6875,9.77442A11.00861,11.00861,0,0,0,20.962,38.96761,11.00861,11.00861,0,0,0,30.31262,58.826a11.00483,11.00483,0,0,0,18.3888,11.58673c-.88831,7.69171-3.24561,17.25634-9.19739,24.15545a.99981.99981,0,1,0,1.51367,1.30664c6.55164-7.59417,8.97546-17.96069,9.80884-26.04211A11.0042,11.0042,0,0,0,69.68762,58.826,11.00792,11.00792,0,0,0,83.92786,44.76546ZM31.97278,11.70784a9.00813,9.00813,0,0,1,16.6289-.72558,7.47,7.47,0,0,1,.42871,1.292.99967.99967,0,0,0,1.93946,0,7.47,7.47,0,0,1,.42871-1.292,9.00791,9.00791,0,1,1,16.32812,7.61328,21.0365,21.0365,0,0,1-2.98108,3.93652L50.00012,37.54079,35.25464,22.532a20.98844,20.98844,0,0,1-2.98108-3.93646A8.94838,8.94838,0,0,1,31.97278,11.70784Zm-1.75,44.98633A9.00812,9.00812,0,0,1,22.60852,40.366a7.47643,7.47643,0,0,1,1.292-.42871.99967.99967,0,0,0,0-1.93945,7.3578,7.3578,0,0,1-1.29-.42871h-.001A9.00791,9.00791,0,1,1,30.22278,21.241a19.44979,19.44979,0,0,1,3.61792,2.70545L48.59839,38.96761,33.8407,53.98879A19.35587,19.35587,0,0,1,30.22278,56.69417ZM63.36926,71.31038A9.01951,9.01951,0,0,1,51.39856,66.953a7.4588,7.4588,0,0,1-.42871-1.291.99936.99936,0,0,0-1.93946,0,7.45794,7.45794,0,0,1-.42871,1.291A9.00811,9.00811,0,1,1,32.27356,59.3387a21.07352,21.07352,0,0,1,2.98877-3.94342L50.00012,40.39443,64.73791,55.39528a21.08988,21.08988,0,0,1,2.98877,3.9444A9.018,9.018,0,0,1,63.36926,71.31038ZM81.74817,52.33675a9.00808,9.00808,0,0,1-11.97168,4.35742,19.40139,19.40139,0,0,1-3.61694-2.70538L51.40185,38.96761l14.7577-15.02112A19.44943,19.44943,0,0,1,69.77747,21.241a9.00791,9.00791,0,1,1,7.61328,16.32813,7.47129,7.47129,0,0,1-1.292.42871.99967.99967,0,0,0,0,1.93945,7.50526,7.50526,0,0,1,1.292.42871,9.00738,9.00738,0,0,1,4.35742,11.97071Z"
+            ></path>
           </svg>
-          +49 (0)30 55570340</span></div>
-
-        <!--Toggle button (hidden on large screens)-->
-        <button @click="isOpen = !isOpen" type="button" class="ml-auto block lg:hidden px-2 text-white hover:text-cyan-200 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
-            <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
-                <path x-show="isOpen" fill-rule="evenodd" clip-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
-                <path x-show="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
-            </svg>
-        </button>
-
-        <!--Menu-->
-        <div class="w-full flex-grow lg:flex lg:flex-1 lg:items-center lg:w-auto text-center " :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false" x-show.transition="true">
-
-            {% if navigation.items %}
-
-                <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center">
-                    
-                    {% for item in navigation.items %}
-
-                        <li class="nav__item {% if loop.last %}mr-0{% else %}mr-3{% endif %}">
-                            <a @click="isOpen = false" class="text-ml inline-block text-white no-underline hover:text-cyan-200 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
-                        </li>
-
-                    {% endfor %}
-                </ul>
-
-            {% endif %}
-        </div>
-    </nav>
-    {% if path != 'home' %}
-    <div class="w-full h-5 z-10">
-        <img class="h-full w-full object-cover" src="/static/img/klee_stripe.jpg" alt="green clover background">
+        </g>
+      </svg>
     </div>
-    {% endif %}
+
+    <div
+      class="sm:flex lg:flex-1 lg:items-center justify-center mx-auto hidden align-middle"
+      x-data="{ isShown: false, isMail: false }"
+      @click.away = "isShown = false, isMail = false"
+    >
+      <span
+        class="text-gray-700 bg-white rounded-full p-1 mx-2"
+        @mouseenter=" isShown = !isShown"
+      >
+        {% heroicon "solid", "phone", "Telefon" %}
+      </span>
+      <span
+        x-show="isShown"
+        @mouseleave=" isShown = !isShown"
+        class="text-white ml-1"
+        >+49 (0)30 55570340
+      </span>
+      <span
+        class="text-gray-700 bg-white rounded-full p-1 mx-2"
+        @mouseenter=" isMail = !isMail"
+      >
+        {% heroicon "solid", "mail", "E-Mail" %}
+      </span>
+      <span
+        x-show="isMail"
+        @mouseleave=" isMail = !isMail"
+        class="text-white ml-1"
+        ><a href="mailto:info@text-for-sale">info@text-for-sale.de</a>
+      </span>
+    </div>
+
+    <!--Toggle button (hidden on large screens)-->
+    <button
+      @click="isOpen = !isOpen"
+      type="button"
+      class="ml-auto block lg:hidden px-2 text-white hover:text-cyan-200 focus:outline-none focus:text-primary-500"
+      :class="{ 'transition transform-180': isOpen }"
+      aria-label="Menu"
+    >
+      <svg
+        class="h-6 w-6 fill-current"
+        xmlns="http://www.w3.org/2000/svg"
+        viewbox="0 0 24 24"
+      >
+        <path
+          x-show="isOpen"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+        />
+        <path
+          x-show="!isOpen"
+          fill-rule="evenodd"
+          d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+        />
+      </svg>
+    </button>
+
+    <!--Menu-->
+    <div
+      class="w-full flex-grow lg:flex lg:flex-1 lg:items-center lg:w-auto text-center"
+      :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }"
+      @click.away="isOpen = false"
+      x-show.transition="true"
+    >
+      {% if navigation.items %}
+
+      <ul
+        class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center"
+      >
+        {% for item in navigation.items %}
+
+        <li class="nav__item {% if loop.last %}mr-0{% else %}mr-3{% endif %}">
+          <a
+            @click="isOpen = false"
+            class="text-ml inline-block text-white no-underline hover:text-cyan-200 py-2 px-4"
+            href="{{ item.url }}"
+            >{{ item.text }}</a
+          >
+        </li>
+
+        {% endfor %}
+      </ul>
+
+      {% endif %}
+    </div>
+  </nav>
+  {% if path != 'home' %}
+  <div class="w-full h-5 z-10">
+    <img
+      class="h-full w-full object-cover"
+      src="/static/img/klee_stripe.jpg"
+      alt="green clover background"
+    />
+  </div>
+  {% endif %}
 </div>
