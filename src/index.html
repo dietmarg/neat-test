@@ -155,15 +155,20 @@ path: home
                     Beispielprojekte
                   </h2>
                   {% set cases = collections.cases %}
-                  <div class="grid grid-cols-3 gap-5 px-4">
-                    {% for case in cases %} {% if case.data.title != title %} {%
-                    set items = service.servicerelprojects %} {% for item in
-                    items %} {% if item == case.data.title %}
-                    <a href="{{ case.url | url }}" class=" transition duration-100 ease-in-out transform hover:scale-105">
-                      <img src="{{ case.data.img }}" alt="" class="h-32 w-64" />
+                  <div class="sm:grid sm:grid-cols-3 sm:gap-5 px-4">
+                    {% for case in cases %} 
+                    {% if case.data.title != title %} 
+                      {%set items = service.servicerelprojects %} 
+                      {% for item in items %} 
+                      {% if item == case.data.title %}
+                      <a href="{{ case.url | url }}" class=" transition duration-100 ease-in-out transform hover:scale-105">
+                      <img src="{{ case.data.img }}" alt="" />
                       <p class="text-gray-700">{{ case.data.title }}</p>
-                    </a>
-                    {% endif %} {% endfor %} {% endif %} {% endfor %}
+                      </a>
+                      {% endif %} 
+                      {% endfor %} 
+                    {% endif %} 
+                    {% endfor %}
                   </div>
                 </div>
               </section>
