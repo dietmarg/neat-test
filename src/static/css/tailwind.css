@@ -36,3 +36,8 @@ body pre[class*="language-"] {
 [data-heroicon-name] {
   @apply inline-block h-5 w-5;
 }
+
+h2 [data-heroicon-name] {
+  @apply inline-block h-8 w-8 mr-2;
+}
+

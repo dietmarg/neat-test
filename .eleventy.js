@@ -48,7 +48,7 @@ module.exports = function (eleventyConfig) {
 
   // eleventy-plugin-heroicons
   eleventyConfig.addPlugin(require('eleventy-plugin-heroicons'), {
-    className: 'icon',
+    className: 'heroicon',
     errorOnMissing: true
 });
 
