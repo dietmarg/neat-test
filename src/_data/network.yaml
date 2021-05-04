@@ -30,7 +30,14 @@ networkers:
   - img:
       - img: /static/img/dspunkt_logo.jpg
         alt: logo
+        url: /static/img/dspunkt_logo.jpg
     name: der springende punkt – Hauck & Lüdtke GbR
     description: Eva Hauck und Claudia Lüdtke sind Lektorinnen für Schulbücher,
       Autorinnen für Kreatives Gestalten und Expertinnen für Leichte Sprache
     url: https://derspringendepunkt.de/
+  - description: Lektor für Wirtschaft, Verbände und Technik
+    name: Herwig Frenzel
+    img:
+      - url: /static/img/bild-herwig-frenzel.jpg
+        alt: Porträt HF
+    url: https://www.lectormedia.de/
