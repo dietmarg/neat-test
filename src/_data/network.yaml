@@ -47,3 +47,10 @@ partners:
       url: /static/img/bild-herwig-frenzel.jpg
       alt: Portrait HF
     description: Lektor für Wirtschaft, Verbände und Technik
+  - name: der springende Punkt – Hauck & Lüdtke GbR
+    description: Lektorinnen für Schulbücher, Autorinnen für Bastelliteratur
+      Expertinnen und Leichte Sprache
+    url: https://derspringendepunkt.de/
+    img:
+      url: /static/img/dsp_450.png
+      alt: Porträt Eva Hauck und Claudia Lüdtke
