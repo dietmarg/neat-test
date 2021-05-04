@@ -41,3 +41,9 @@ networkers:
       - url: /static/img/bild-herwig-frenzel.jpg
         alt: Porträt HF
     url: https://www.lectormedia.de/
+partners:
+  - name: Herwig Frenzel
+    img:
+      url: /static/img/bild-herwig-frenzel.jpg
+      alt: Portrait HF
+    description: Lektor für Wirtschaft, Verbände und Technik
