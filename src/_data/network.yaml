@@ -26,4 +26,11 @@ text: >-
 
 
   Dreidreizehn: Die Berliner Agentur für intelligente Werbung aus einer Hand
-networkers: []
+networkers:
+  - img:
+      - img: /static/img/dspunkt_logo.jpg
+        alt: logo
+    name: der springende punkt – Hauck & Lüdtke GbR
+    description: Eva Hauck und Claudia Lüdtke sind Lektorinnen für Schulbücher,
+      Autorinnen für Kreatives Gestalten und Expertinnen für Leichte Sprache
+    url: https://derspringendepunkt.de/
