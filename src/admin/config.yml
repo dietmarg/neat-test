@@ -124,20 +124,19 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Text, name: text, widget: markdown}   
           - label: "Netzwerker"
-            name: "networkers"
+            name: "partners"
             widget: "list"
             fields:
-              - label: Bild
-                name: img
-                widget: list
-                media_folder: network
-                allow_multiple: false
-                fields:
-                  - { label: "Bild", name: "img", widget: "image" }
-                  - { label: "Alt Text", name: "alt", widget: "string" }
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Kurzbeschreibung", name: "description", widget: "markdown", required: false }
-              - { label: "Website", name: "url", widget: "string", required: false, hint: "Webadresse mit https://… beginnend" }                        
+              - { label: "Website", name: "url", widget: "string", required: false, hint: "Webadresse  mit https://… beginnend" }   
+              - label: Bild
+                name: img
+                widget: object
+                allow_multiple: false
+                fields:
+                  - { label: "Bild", name: "url", widget: "image" }
+                  - { label: "Alt Text", name: "alt", widget: "string" }                     
   - label: "Settings"
     name: "settings"
     editor:

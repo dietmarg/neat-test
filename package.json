@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-img": "^0.8.3",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.1",
     "swiper": "^6.5.4"
