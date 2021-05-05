@@ -47,26 +47,27 @@
         class="text-gray-700 bg-white rounded-full p-1 mx-2"
         @mouseenter=" isShown = !isShown"
       >
-        {% heroicon "solid", "phone", "Telefon" %}
+        <a href="tel:+491781323264">{% heroicon "solid", "phone", "Anrufen" %}</a>
       </span>
-      <span
+      <div
         x-show="isShown"
         @mouseleave=" isShown = !isShown"
-        class="text-white ml-1"
-        >+49 (0)30 55570340
-      </span>
+        class="text-white ml-1 absolute top-20"
+        >
+        +49 (0)30 55570340
+      </div>
       <span
         class="text-gray-700 bg-white rounded-full p-1 mx-2"
         @mouseenter=" isMail = !isMail"
       >
-        {% heroicon "solid", "mail", "E-Mail" %}
+        <a href="mailto:info@text-for-sale">{% heroicon "solid", "mail", "E-Mail an Sebastian Petrich senden" %}</a>
       </span>
-      <span
+      {# <div
         x-show="isMail"
         @mouseleave=" isMail = !isMail"
-        class="text-white ml-1"
+        class="text-white ml-1 absolute top-24 top"
         ><a href="mailto:info@text-for-sale">info@text-for-sale.de</a>
-      </span>
+      </div> #}
     </div>
 
     <!--Toggle button (hidden on large screens)-->
