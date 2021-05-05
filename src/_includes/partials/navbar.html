@@ -47,20 +47,20 @@
         class="text-gray-700 bg-white rounded-full p-1 mx-2"
         @mouseenter=" isShown = !isShown"
       >
-        <a href="tel:+493055570340">{% heroicon "solid", "phone", "Anrufen" %}</a>
+        <a href="tel:{{ navigation.tel }}">{% heroicon "solid", "phone", "Anrufen" %}</a>
       </span>
       <div
         x-show="isShown"
         @mouseleave=" isShown = !isShown"
         class="text-white ml-1 absolute top-20"
         >
-        +49 (0)30 55570340
+        {{ navigation.tel }}
       </div>
       <span
         class="text-gray-700 bg-white rounded-full p-1 mx-2"
         @mouseenter=" isMail = !isMail"
       >
-        <a href="mailto:info@text-for-sale">{% heroicon "solid", "mail", "E-Mail an Sebastian Petrich senden" %}</a>
+        <a href="mailto:{{ navigation.email }}">{% heroicon "solid", "mail", "E-Mail an Sebastian Petrich senden" %}</a>
       </span>
       {# <div
         x-show="isMail"
