@@ -5,7 +5,7 @@ backend:
   ### enable below lines for github integration ###
   # name: github
   # repo: surjithctly/neat-starter
-media_folder: "src/static/img"
+media_folder: "src/static/img/"
 public_folder: "/static/img"
 
 # Please run "npx netlify-cms-proxy-server" for local backend
@@ -41,7 +41,13 @@ collections:
       - { label: "Description", name: "description", widget: "markdown" }
       - { label: "Meine Aufgabe(n)", name: "mytasks", widget: "markdown" }
       - { label: "Ergebnis", name: "result", widget: "markdown" }
-      - { label: 'Image', name: 'img', widget: 'image', default: '/static/img/klee_teaser_default.jpg', required: false }
+      - name: teaserimg
+        label: 'Teaserbild'
+        widget: object
+        required: false
+        fields:
+          - { label: 'Teaserbild', name: 'img', widget: 'image', default: '/static/img/klee_teaser_default.jpg', required: false }
+          - { label: "Alt Text", name: alt, widget: string }
       - label: "MainImage"
         name: mainimg
         widget: object
@@ -49,7 +55,7 @@ collections:
         fields:
           - { label: 'Image', name: 'main_img', widget: 'image' } 
           - { label: "Title", name: "title", widget: "string" } 
-          - { label: "Alt", name: "alt", widget: "string" }
+          - { label: "Alt Text", name: "alt", widget: "string" }
       - widget: select
         label: "Leistungen"
         name: "tasks"
@@ -110,13 +116,7 @@ collections:
             widget: object
             fields:
               - { label: "Textblock-Links", name: "textleft", widget: "markdown" } 
-              - { label: "Textblock-Rechts", name: "textright", widget: "markdown" }   
-      - label: Impressum und Datenschutz
-        name: imprint
-        file: "src/_data/imprint.yaml"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Text, name: text, widget: markdown}          
+              - { label: "Textblock-Rechts", name: "textright", widget: "markdown" }          
       - label: Netzwerk
         name: network
         file: "src/_data/network.yaml"
@@ -136,7 +136,19 @@ collections:
                 allow_multiple: false
                 fields:
                   - { label: "Bild", name: "url", widget: "image" }
-                  - { label: "Alt Text", name: "alt", widget: "string" }                     
+                  - { label: "Alt Text", name: "alt", widget: "string" } 
+      - label: Impressum und Datenschutz
+        name: imprint
+        file: "src/_data/imprint.yaml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Text, name: text, widget: markdown}    
+      - label: English Page
+        name: english
+        file: "src/_data/english.yaml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Text, name: body, widget: markdown}                                    
   - label: "Settings"
     name: "settings"
     editor:
