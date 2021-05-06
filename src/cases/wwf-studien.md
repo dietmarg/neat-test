@@ -25,6 +25,9 @@ result: >-
 
   Zukunft Stromsystem II: Regionalisierung der erneuerbaren Stromerzeugung ([pdf](https://mobil.wwf.de/fileadmin/fm-wwf/Publikationen-PDF/WWF-Zukunft-Stromsystem-2.pdf))
 img: /static/img/wwf_teaser.jpg
+teaserimg:
+  img: /static/img/wwf_teaser.jpg
+  alt: Coverabbildung WWF-Studie zum Kohleausstieg
 mainimg:
   main_img: /static/img/wwf_01.jpg
   title: WWF-Studien
