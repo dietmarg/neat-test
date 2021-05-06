@@ -25,6 +25,9 @@ mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
 result: Mehrere Dutzend Ausgaben seit Herbst 2011, abrufbar unter
   [www.bundzeit.de](http://www.bundzeit.de)
 img: /static/img/bundzeit_teserimg.jpg
+teaserimg:
+  img: /static/img/bundzeit_teaser_alt.jpg
+  alt: BUNDzeit Coverabbildung
 mainimg:
   main_img: /static/img/bundzeit_main.jpg
   title: Screenshop BUNDzeit
