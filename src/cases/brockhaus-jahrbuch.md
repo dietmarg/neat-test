@@ -26,6 +26,9 @@ mytasks: Afghanistan, Ägypten, Algerien, Armenien, Äthiopien, Bahrain, Brunei,
   Quelle.
 result: Jeweils über 50 Lemmata in den Brockhaus Jahrbüchern seit 2011
 img: /static/img/brockhaus-teaser.jpg
+teaserimg:
+  img: /static/img/brockhaus-teaser.jpg
+  alt: Abbildung einer Seite aus dem Brockhaus mit Kartenausschnitt von Westafrika
 mainimg:
   main_img: /static/img/brockhaus-main.jpg
   title: Brockhaus Jahrbuch
