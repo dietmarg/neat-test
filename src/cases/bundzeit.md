@@ -13,9 +13,9 @@ mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
   sujet design. Im letzten Arbeitsschritt organisiere ich das Korrekturlesen und
   das Einarbeiten der Korrekturen."
 caserelprojects:
-  - Brockhaus Jahrbuch
   - Zero-Waste-Blog
   - WWF-Studien
+  - Brockhaus Jahrbuch
 img: /static/img/bundzeit_teserimg.jpg
 description: "Die viermal jährlich in einer Auflage von 30.000 Stück
   erscheinende BUNDzeit hat zwei Funktionen. Zum einen dient sie den
