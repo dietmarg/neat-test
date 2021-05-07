@@ -1,15 +1,5 @@
 ---
 title: BUNDzeit
-description: "Die viermal jährlich in einer Auflage von 30.000 Stück
-  erscheinende BUNDzeit hat zwei Funktionen. Zum einen dient sie den
-  Landesverbänden des Bund für Umwelt und Naturschutz Deutschland (BUND) in
-  Berlin und Brandenburg als Mitgliederzeitschrift. Zum anderen versteht sie
-  sich als Umweltzeitung für die Metropolregion. Jede Ausgabe beleuchtet ein
-  anderes Schwerpunktthema, das eine wichtige Rolle in der aktuellen
-  Umweltpolitik spielt; in jüngerer Zeit beispielsweise Bioabfall, Pestizide,
-  Wasser, Verkehrswende, Kohleausstieg, Populismus und Biodiversität. Natürlich
-  gilt es alle Themen auf die regionale Ebene herunterzubrechen: Was bedeutet
-  diese globale Frage für Berlin und Brandenburg?"
 mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
   BUND-Landesverbänden geklärt habe, was in der kommenden Ausgabe behandelt
   werden soll, stelle ich einen Seitenplan zusammen. Dann beginnt die
@@ -22,9 +12,23 @@ mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
   Gestaltung übernimmt auf ebenso solide wie kreative Art Claudia Winter von
   sujet design. Im letzten Arbeitsschritt organisiere ich das Korrekturlesen und
   das Einarbeiten der Korrekturen."
+caserelprojects:
+  - Brockhaus Jahrbuch
+  - Zero-Waste-Blog
+  - WWF-Studien
+img: /static/img/bundzeit_teserimg.jpg
+description: "Die viermal jährlich in einer Auflage von 30.000 Stück
+  erscheinende BUNDzeit hat zwei Funktionen. Zum einen dient sie den
+  Landesverbänden des Bund für Umwelt und Naturschutz Deutschland (BUND) in
+  Berlin und Brandenburg als Mitgliederzeitschrift. Zum anderen versteht sie
+  sich als Umweltzeitung für die Metropolregion. Jede Ausgabe beleuchtet ein
+  anderes Schwerpunktthema, das eine wichtige Rolle in der aktuellen
+  Umweltpolitik spielt; in jüngerer Zeit beispielsweise Bioabfall, Pestizide,
+  Wasser, Verkehrswende, Kohleausstieg, Populismus und Biodiversität. Natürlich
+  gilt es alle Themen auf die regionale Ebene herunterzubrechen: Was bedeutet
+  diese globale Frage für Berlin und Brandenburg?"
 result: Mehrere Dutzend Ausgaben seit Herbst 2011, abrufbar unter
   [www.bundzeit.de](http://www.bundzeit.de)
-img: /static/img/bundzeit_teserimg.jpg
 teaserimg:
   img: /static/img/bundzeit_teserimg.jpg
   alt: BUNDzeit Coverabbildung
