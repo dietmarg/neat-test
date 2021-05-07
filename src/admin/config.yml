@@ -36,6 +36,7 @@ collections:
     create: true
     editor:
       preview: false
+    sortable_fields: ['title']  
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "markdown" }
@@ -61,7 +62,17 @@ collections:
         name: "tasks"
         multiple: true
         create: true
-        options: ["schreiben", "lektorieren", "faktencheck", "webredaktion"]            
+        options: ["schreiben", "lektorieren", "faktencheck", "webredaktion"]        
+      - label: Weitere Beispiele
+        name: caserelprojects
+        widget: relation
+        collection: cases
+        search_fields: ["title"]
+        value_field: title 
+        display_fields: ["title", "img"]
+        required: false
+        multiple: true
+        max: 3          
   - label: "Pages"
     name: "pages"
     files:
