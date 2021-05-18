@@ -44,20 +44,18 @@ prism: true
                   </h2>
                   {% set cases = collections.cases %}
                   <div class="sm:grid sm:grid-cols-3 sm:gap-5 px-4">
-                    {% for case in cases %} 
-                    {% if case.data.title != title %} 
                       {%set items = caserelprojects %} 
                       {% for item in items %} 
-                      {% if item == case.data.title %}
+                      {% for case in cases %} 
+                      {% if case.data.title != title and item == case.data.title %}
                       <a href="{{ case.url | url }}" class=" transition duration-100 ease-in-out transform hover:scale-105">
                       <img src="{{ case.data.img }}" alt="" />
                       <p class="text-gray-700">{{ case.data.title }}</p>
                       </a>
                       {% endif %} 
                       {% endfor %} 
-                    {% endif %} 
-                    {% endfor %}
-                  </div>
+                      {% endfor %}
+                    </div>
                 </div>
               </section>
               {% endif %}
