@@ -41,3 +41,7 @@ h2 [data-heroicon-name] {
   @apply inline-block h-8 w-8 mr-2;
 }
 
+.prose img.thumb {
+  margin-top: 0;
+  margin-bottom: 0;
+}

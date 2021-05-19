@@ -39,16 +39,6 @@ collections:
     sortable_fields: ['title']  
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "markdown" }
-      - { label: "Meine Aufgabe(n)", name: "mytasks", widget: "markdown" }
-      - { label: "Ergebnis", name: "result", widget: "markdown" }
-      - name: teaserimg
-        label: 'Teaserbild'
-        widget: object
-        required: false
-        fields:
-          - { label: 'Teaserbild', name: 'img', widget: 'image', default: '/static/img/klee_teaser_default.jpg', required: false }
-          - { label: "Alt Text", name: alt, widget: string }
       - label: "MainImage"
         name: mainimg
         widget: object
@@ -57,6 +47,26 @@ collections:
           - { label: 'Image', name: 'main_img', widget: 'image' } 
           - { label: "Title", name: "title", widget: "string" } 
           - { label: "Alt Text", name: "alt", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - label: "Bilder"
+        name: galleryimg
+        widget: list
+        max: 5
+        required: false
+        fields:
+          - { label: 'Image', name: 'gal_img', widget: 'image' } 
+          - { label: "Bildunterschrift", name: "caption", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" } 
+          - { label: "Alt Text", name: "alt", widget: "string" }
+      - { label: "Meine Aufgabe(n)", name: "mytasks", widget: "markdown" }
+      - { label: "Ergebnis", name: "result", widget: "markdown" }
+      - name: teaserimg
+        label: 'Teaserbild'
+        widget: object
+        required: false
+        fields:
+          - { label: 'Teaserbild', name: 'img', widget: 'image', default: '/static/img/klee_teaser_default.jpg', required: false }
+          - { label: "Alt Text", name: alt, widget: string }  
       - widget: select
         label: "Leistungen"
         name: "tasks"
