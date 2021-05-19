@@ -17,6 +17,10 @@ caserelprojects:
   - WWF-Studien
   - Brockhaus Jahrbuch
 img: /static/img/bundzeit_teserimg.jpg
+mainimg:
+  main_img: /static/img/bundzeit_main.jpg
+  title: Screenshop BUNDzeit
+  alt: Screenshop BUNDzeit zeigt Logo und Artikel-Intro
 description: "Die viermal jährlich in einer Auflage von 30.000 Stück
   erscheinende BUNDzeit hat zwei Funktionen. Zum einen dient sie den
   Landesverbänden des Bund für Umwelt und Naturschutz Deutschland (BUND) in
@@ -27,15 +31,21 @@ description: "Die viermal jährlich in einer Auflage von 30.000 Stück
   Wasser, Verkehrswende, Kohleausstieg, Populismus und Biodiversität. Natürlich
   gilt es alle Themen auf die regionale Ebene herunterzubrechen: Was bedeutet
   diese globale Frage für Berlin und Brandenburg?"
+galleryimg:
+  - gal_img: /static/img/bundzeit_03.jpg
+    title: Bundzeit
+    alt: Abbildung Doppelseite Bundzeit
+  - gal_img: /static/img/bundzeit_05.jpg
+    alt: Abbildung Doppelseite Bundzeit mit Fotos
+    title: Bundzeit
+  - gal_img: /static/img/bundzeit_06.jpg
+    alt: Abbildung letzte Seite Bundzeit
+    title: Bundzeit
 result: Mehrere Dutzend Ausgaben seit Herbst 2011, abrufbar unter
   [www.bundzeit.de](http://www.bundzeit.de)
 teaserimg:
   img: /static/img/bundzeit_teserimg.jpg
   alt: BUNDzeit Coverabbildung
-mainimg:
-  main_img: /static/img/bundzeit_main.jpg
-  title: Screenshop BUNDzeit
-  alt: Screenshop BUNDzeit zeigt Logo und Artikel-Intro
 tasks:
   - schreiben
   - webredaktion
