@@ -51,3 +51,9 @@ partners:
     img:
       url: /static/img/dsp_450.png
       alt: Porträt Eva Hauck und Claudia Lüdtke
+  - name: Corina Alt
+    description: Lektorin für Wirtschaft und Politik
+    url: http://www.publicate.eu
+    img:
+      url: /static/img/corina-alt.jpg
+      alt: Corina Alt
