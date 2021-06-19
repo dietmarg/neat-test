@@ -44,6 +44,7 @@ partners:
       url: /static/img/bild-herwig-frenzel.jpg
       alt: Portrait HF
     description: Lektor für Wirtschaft, Verbände und Technik
+    url: https://www.lectormedia.de/
   - name: Eva Hauck & Claudia Lüdtke
     description: Lektorinnen für Schulbücher, Autorinnen für Bastelliteratur,
       Expertinnen für Leichte Sprache
@@ -51,3 +52,21 @@ partners:
     img:
       url: /static/img/dsp_450.png
       alt: Porträt Eva Hauck und Claudia Lüdtke
+  - name: Corina Alt
+    description: Lektorin für Wirtschaft und Politik
+    url: http://www.publicate.eu
+    img:
+      url: /static/img/corina-alt.jpg
+      alt: Corina Alt
+  - name: Traudl Kupfer
+    description: Autorin, Redakteurin und Lektorin für Wirtschaft, Politik und Reisen
+    url: http://www.traudl-kupfer.de
+    img:
+      url: /static/img/traudl-kupfer.jpg
+      alt: Traudl Kupfer
+  - name: Andrea Rentschler
+    description: Texterin und Lektorin mit Schwerpunkt Mode und Luxus
+    url: https://andrearentschler.de/
+    img:
+      url: /static/img/andrea_rentschler.jpg
+      alt: Andrea Rentschler
