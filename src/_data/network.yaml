@@ -64,3 +64,9 @@ partners:
     img:
       url: /static/img/traudl-kupfer.jpg
       alt: Traudl Kupfer
+  - name: Andrea Rentschler
+    description: Texterin und Lektorin mit Schwerpunkt Mode und Luxus
+    url: https://andrearentschler.de/
+    img:
+      url: /static/img/andrea_rentschler.jpg
+      alt: Andrea Rentschler
