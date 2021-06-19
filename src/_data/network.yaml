@@ -58,3 +58,9 @@ partners:
     img:
       url: /static/img/corina-alt.jpg
       alt: Corina Alt
+  - name: Traudl Kupfer
+    description: Autorin, Redakteurin und Lektorin für Wirtschaft, Politik und Reisen
+    url: http://www.traudl-kupfer.de
+    img:
+      url: /static/img/traudl-kupfer.jpg
+      alt: Traudl Kupfer
