@@ -10,7 +10,7 @@ text: >-
   Herwig Frenzel: Lektor für Wirtschaft, Verbände und Technik
 
 
-  Eva Hauck und Claudia Lüdtke: Lektorinnen für Schulbücher, Autorinnen für Bastelliteratur Expertinnen und Leichte Sprache
+  Eva Hauck und Claudia Lüdtke: Lektorinnen für Schulbücher, Autorinnen für Bastelliteratur, Expertinnen für Leichte Sprache
 
 
   Corina Alt: Lektorin für Wirtschaft und Politik
@@ -23,9 +23,6 @@ text: >-
 
 
   Claudia Winter und Oliver Temmler (sujet): Agentur für Kommunikationsdesign
-
-
-  Dreidreizehn: Die Berliner Agentur für intelligente Werbung aus einer Hand
 networkers:
   - img:
       - img: /static/img/dspunkt_logo.jpg
@@ -48,8 +45,8 @@ partners:
       alt: Portrait HF
     description: Lektor für Wirtschaft, Verbände und Technik
   - name: der springende Punkt – Hauck & Lüdtke GbR
-    description: Lektorinnen für Schulbücher, Autorinnen für Bastelliteratur
-      Expertinnen und Leichte Sprache
+    description: Lektorinnen für Schulbücher, Autorinnen für Bastelliteratur,
+      Expertinnen für Leichte Sprache
     url: https://derspringendepunkt.de/
     img:
       url: /static/img/dsp_450.png
