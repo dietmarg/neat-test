@@ -60,7 +60,7 @@ services:
 
       Wir stellen Ihre Inhalte nicht bloß ins Netz, sondern erledigen als erfahrene Redakteure die Schlussredaktion und sorgen für passende Headlines, Teaser und Bilder. Als Profis in der **Verbandskommunikation** bewegen wir uns leichtfüßig im Spannungsfeld zwischen Hauptamtlichen, Vorstand und Ehrenamtlichen.
 expertise:
-  image: /static/img/wwf_expertise.jpg
+  image: /static/img/brille.jpg
   title: Politische Kommunikation
   body: Komplizierte politische Sachverhalte verständlich darzustellen, ohne sie
     zu vereinfachen, ist seit vielen Jahren der inhaltliche Kern meiner Arbeit.
@@ -72,9 +72,9 @@ profile:
   body: "Mein Name ist Sebastian Petrich. Seit 2005 arbeite ich als
     freiberuflicher Textdienstleister: freier Journalist, Texter, Redakteur,
     Lektor und Autor. Meistens geht es bei meiner Arbeit um Politik, Umwelt- und
-    Naturschutz, Stadtentwicklung und Mobilität sowie Zeitgeschichte in den
-    Mena- und Subsaharastaaten. Allerdings bin ich auch für andere Themen immer
-    offen"
+    Naturschutz, Stadtentwicklung und Mobilität sowie Politik und Zeitgeschichte
+    in den Mena- und Subsaharastaaten. Allerdings bin ich auch für andere Themen
+    immer offen"
   addtext: >-
     Aufgewachsen in Baden-Württemberg zog es mich 1994 zum Studium der
     Politikwissenschaft (FU) nach Berlin, wo ich mich nebenbei als
