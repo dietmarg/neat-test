@@ -16,6 +16,10 @@ galleryimg:
     caption: BU, die man nicht sehen sollte
     title: Website Bezirksamt Steglitz-Zehlendorf, Startseite Klimaschutz
     alt: Screenshot Website Bezirksamt Steglitz-Zehlendorf
+  - gal_img: /static/img/klima-sz_03.jpg
+    caption: Chronik der Klimaschutzgeschichte im südwestlichen Berlin
+    title: Meilensteine Klimaschutz Steglitz-Zehlendorf
+    alt: Screenshot Bezirksamt Steglitz-Zehlendorf
 mytasks: "Für das Klimaschutzportal klimaSZ.de schrieb ich unter anderem den
   einleitenden Text „Klimaschutz in Steglitz-Zehlendorf: was wir im Bezirk tun
   (müssen)“, eine Bestandsaufnahme zur Sanierung der öffentlichen Gebäude, eine
@@ -27,7 +31,8 @@ mytasks: "Für das Klimaschutzportal klimaSZ.de schrieb ich unter anderem den
   man die Stromfresser unter den elektrischen Kleingeräte ermittelt und wo sich
   die besten Tipps für Ausflüge ins Grüne ohne Auto finden lassen."
 result: 25 Klimaschutztipps, ein Flyer, ein Poster sowie mehrere Websitetexte
-  auf [www.klimaSZ.de](www.klimaSZ.de)
+  auf
+  [www.klimaSZ.de](https://www.berlin.de/ba-steglitz-zehlendorf/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/zukunft/artikel.37305.php)
 teaserimg:
   img: /static/img/mlogo_st-zhld-klima.jpg
   alt: Klimaschutz in Steglitz-Zehlendorf
