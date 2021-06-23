@@ -11,6 +11,11 @@ description: Der Bezirk im Südwesten Berlins hat seit 2011 ein eigenes
   Steglitz-Zehlendorf aus. Folglich beschloss das Bezirksamt, die Bürgerinnen
   und Bürger besser über das Thema zu informieren und zu mehr eigenen Beiträgen
   zum Klimaschutz zu motivieren. An dieser Stelle kam ich als Texter ins Spiel.
+galleryimg:
+  - gal_img: /static/img/klima-sz_01.jpg
+    caption: BU, die man nicht sehen sollte
+    title: Website Bezirksamt Steglitz-Zehlendorf, Startseite Klimaschutz
+    alt: Screenshot Website Bezirksamt Steglitz-Zehlendorf
 mytasks: "Für das Klimaschutzportal klimaSZ.de schrieb ich unter anderem den
   einleitenden Text „Klimaschutz in Steglitz-Zehlendorf: was wir im Bezirk tun
   (müssen)“, eine Bestandsaufnahme zur Sanierung der öffentlichen Gebäude, eine
