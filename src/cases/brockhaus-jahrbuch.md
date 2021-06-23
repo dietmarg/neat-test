@@ -1,4 +1,5 @@
 ---
+title: Brockhaus Jahrbuch
 mytasks: Afghanistan, Ägypten, Algerien, Armenien, Äthiopien, Bahrain, Brunei,
   Burkino Faso, Dschibuti, Elfenbeinkäste, Eswatini (bis 2018 Swasiland),
   Gambia, Guinea, Guinea-Bissau, Irak, Iran, Israel, Jemen, Jordanien, Kamerun,
@@ -18,10 +19,9 @@ caserelprojects:
   - BUNDzeit
   - Klimaschutz in Steglitz-Zehlendorf
 img: /static/img/brockhaus-teaser.jpg
-title: Brockhaus Jahrbuch
 mainimg:
   main_img: /static/img/brockhaus-main.jpg
-  title: Brockhaus Jahrbuch
+  title: "Brockhaus Jahrbuch  "
   alt: "Foto des Einbands eines Brockhaus Jahrbuchs "
 description: Kaum ist es gedruckt und ausgeliefert, veraltet ein Lexikon schon.
   Diesem Problem begegnete die Brockhaus Enzyklopädie 1993, indem sie fortan ein
@@ -32,7 +32,7 @@ description: Kaum ist es gedruckt und ausgeliefert, veraltet ein Lexikon schon.
   Lexikons ein. Doch das Jahrbuch erscheint weiterhin, schließlich haben die
   Käufer mit einem Exemplar der letzten Auflage auch den Anspruch auf einen
   jährlichen Ergänzungsband erworben. Darüber freue ich mich sehr, denn seit
-  2011 gehöre ich zum Autorenteam.
+  2011 gehöre ich zum Autorenteam.tet
 result: Jeweils über 50 Lemmata in den Brockhaus Jahrbüchern seit 2011
 teaserimg:
   img: /static/img/brockhaus-teaser.jpg
