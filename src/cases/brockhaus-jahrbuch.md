@@ -31,7 +31,7 @@ description: Kaum ist es gedruckt und ausgeliefert, veraltet ein Lexikon schon.
   Lexikons ein. Doch das Jahrbuch erscheint weiterhin, schließlich haben die
   Käufer mit einem Exemplar der letzten Auflage auch den Anspruch auf einen
   jährlichen Ergänzungsband erworben. Darüber freue ich mich sehr, denn seit
-  2011 gehöre ich zum Autorenteam unter der Leitung von Dr. Dirk Palm.
+  2011 gehöre ich zum Autorenteam.
 result: Jeweils über 50 Lemmata in den Brockhaus Jahrbüchern seit 2011
 teaserimg:
   img: /static/img/brockhaus-teaser.jpg
