@@ -27,7 +27,8 @@ mytasks: "Für das Klimaschutzportal klimaSZ.de schrieb ich unter anderem den
   man die Stromfresser unter den elektrischen Kleingeräte ermittelt und wo sich
   die besten Tipps für Ausflüge ins Grüne ohne Auto finden lassen."
 result: 25 Klimaschutztipps, ein Flyer, ein Poster sowie mehrere Websitetexte
-  auf [www.klimaSZ.de](www.klimaSZ.de)
+  auf
+  [www.klimaSZ.de](https://www.berlin.de/ba-steglitz-zehlendorf/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/zukunft/artikel.37305.php)
 teaserimg:
   img: /static/img/mlogo_st-zhld-klima.jpg
   alt: Klimaschutz in Steglitz-Zehlendorf
