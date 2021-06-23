@@ -1,15 +1,4 @@
 ---
-title: Brockhaus Jahrbuch
-description: Kaum ist es gedruckt und ausgeliefert, veraltet ein Lexikon schon.
-  Diesem Problem begegnete die Brockhaus Enzyklopädie 1993, indem sie fortan ein
-  Brockhaus Jahrbuch herausgebrachte. Auf rund 400 Seiten, in Halbleder und mit
-  Goldschnitt fassen die Bücher das Geschehen des Jahres zusammen, natürlich im
-  klassischen Lexikonstil präsentiert. Die letzte gedruckte, 30-bändige Ausgabe
-  der Enzyklopädie erschien 2006, 2014 stellte Bertelsmann den Vertrieb des
-  Lexikons ein. Doch das Jahrbuch erscheint weiterhin, schließlich haben die
-  Käufer mit einem Exemplar der letzten Auflage auch den Anspruch auf einen
-  jährlichen Ergänzungsband erworben. Darüber freue ich mich sehr, denn seit
-  2011 gehöre ich zum Autorenteam unter der Leitung von Dr. Dirk Palm.
 mytasks: Afghanistan, Ägypten, Algerien, Armenien, Äthiopien, Bahrain, Brunei,
   Burkino Faso, Dschibuti, Elfenbeinkäste, Eswatini (bis 2018 Swasiland),
   Gambia, Guinea, Guinea-Bissau, Irak, Iran, Israel, Jemen, Jordanien, Kamerun,
@@ -24,15 +13,29 @@ mytasks: Afghanistan, Ägypten, Algerien, Armenien, Äthiopien, Bahrain, Brunei,
   als solche zur Türkei. Und auch wenn sie später im gedruckten Jahrbuch nicht
   erscheinen, so verweisen doch Fußnoten penibel auf jede einzelne genutzte
   Quelle.
-result: Jeweils über 50 Lemmata in den Brockhaus Jahrbüchern seit 2011
+caserelprojects:
+  - Zero-Waste-Blog
+  - BUNDzeit
 img: /static/img/brockhaus-teaser.jpg
-teaserimg:
-  img: /static/img/brockhaus-teaser.jpg
-  alt: Abbildung einer Seite aus dem Brockhaus mit Kartenausschnitt von Westafrika
+title: Brockhaus Jahrbuch
 mainimg:
   main_img: /static/img/brockhaus-main.jpg
   title: Brockhaus Jahrbuch
   alt: "Foto des Einbands eines Brockhaus Jahrbuchs "
+description: Kaum ist es gedruckt und ausgeliefert, veraltet ein Lexikon schon.
+  Diesem Problem begegnete die Brockhaus Enzyklopädie 1993, indem sie fortan ein
+  Brockhaus Jahrbuch herausgebrachte. Auf rund 400 Seiten, in Halbleder und mit
+  Goldschnitt fassen die Bücher das Geschehen des Jahres zusammen, natürlich im
+  klassischen Lexikonstil präsentiert. Die letzte gedruckte, 30-bändige Ausgabe
+  der Enzyklopädie erschien 2006, 2014 stellte Bertelsmann den Vertrieb des
+  Lexikons ein. Doch das Jahrbuch erscheint weiterhin, schließlich haben die
+  Käufer mit einem Exemplar der letzten Auflage auch den Anspruch auf einen
+  jährlichen Ergänzungsband erworben. Darüber freue ich mich sehr, denn seit
+  2011 gehöre ich zum Autorenteam unter der Leitung von Dr. Dirk Palm.
+result: Jeweils über 50 Lemmata in den Brockhaus Jahrbüchern seit 2011
+teaserimg:
+  img: /static/img/brockhaus-teaser.jpg
+  alt: Abbildung einer Seite aus dem Brockhaus mit Kartenausschnitt von Westafrika
 tasks:
   - schreiben
   - faktencheck
