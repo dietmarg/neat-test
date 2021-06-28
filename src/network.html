@@ -23,10 +23,9 @@ prism: true
     <div class="space-y-12">
       <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">{{ network.title }}</h2>
       
-      <article class="prose lg:prose-xl my-4 text-left">
+      <section class="prose lg:prose-xl my-4 text-left">
         <p>{{ network.text | md | safe }}</p>
-
-     </article>
+     </section>
 
       <ul class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
         {% for partner in network.partners %}
@@ -50,8 +49,14 @@ prism: true
             </div>
             </li>
         {% endfor %}
-        <!-- More people... -->
       </ul>
+
+      {% if network.text_bottom %}
+      <section class="prose lg:prose-xl my-4 text-left">
+        <p>{{ network.text_bottom | md | safe }}</p>
+     </section>
+     {% endif %}
+
     </div>
   </div>
 </div>
