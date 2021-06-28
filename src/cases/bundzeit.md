@@ -1,4 +1,5 @@
 ---
+title: BUNDzeit
 mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
   BUND-Landesverbänden geklärt habe, was in der kommenden Ausgabe behandelt
   werden soll, stelle ich einen Seitenplan zusammen. Dann beginnt die
@@ -16,7 +17,6 @@ caserelprojects:
   - WWF-Studien
   - Brockhaus Jahrbuch
 img: /static/img/bundzeit_teserimg.jpg
-title: BUNDzeit
 mainimg:
   main_img: /static/img/bundzeit_main.jpg
   title: Screenshop BUNDzeit
@@ -39,15 +39,15 @@ galleryimg:
   - gal_img: /static/img/bundzeit_04.jpg
     title: "BUNDzeit "
     alt: Abbildung Doppelseite Aktuelles BUNDzeit
-    caption: Heftplanung, Recherche, Schreiben, Fotoredaktion
+    caption: ""
   - gal_img: /static/img/bundzeit_05.jpg
     alt: Abbildung Doppelseite Bundzeit mit Fotos
     title: Bundzeit
-    caption: Heftplanung, Recherche, Schreiben, Fotoredaktion
+    caption: Doppelseite BUNDzeit
   - gal_img: /static/img/bundzeit_06.jpg
     alt: Abbildung letzte Seite Bundzeit
     title: Bundzeit
-    caption: Heftplanung, Recherche, Schreiben, Fotoredaktion
+    caption: ""
 result: Mehrere Dutzend Ausgaben seit Herbst 2011, abrufbar unter
   [www.bundzeit.de](http://www.bundzeit.de)
 teaserimg:
