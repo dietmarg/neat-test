@@ -13,9 +13,9 @@ mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
   sujet design. Im letzten Arbeitsschritt organisiere ich das Korrekturlesen und
   das Einarbeiten der Korrekturen."
 caserelprojects:
-  - Zero-Waste-Blog
-  - WWF-Studien
   - Brockhaus Jahrbuch
+  - Klimaschutz in Steglitz-Zehlendorf
+  - WWF-Studien
 img: /static/img/bundzeit_teserimg.jpg
 mainimg:
   main_img: /static/img/bundzeit_main.jpg
