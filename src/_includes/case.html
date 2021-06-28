@@ -17,14 +17,14 @@ prism: true
               
               {% for img in galleryimg %}
                 <img src="{{ img.gal_img }}" alt="{{ img.alt }}" x-show="image === 'image{{ loop.index }}'" class="shadow">
-                {% if img.caption %}<p class="mt-4">{{ img.caption }}{% endif %}
+                {% if img.caption %}<p class="mt-4" x-show="image === 'image{{ loop.index }}'">{{ img.caption }}</p>{% endif %}
               {% endfor %}
               
             </div>
             <div class="flex items-center mt-4">
             {% for img in galleryimg %}
 
-                <a href="#" class="border-b-4 border-transparent mr-4 hover:border-cyan-600" :class="{ 'border-cyan-600' : image === 'image{{ loop.index }}'}" @click.prevent="image = 'image{{ loop.index }}'"><img src="{{ img.gal_img }}" alt="mac pro" class="thumb max-w-12 max-h-12"></a>
+                <a href="#" class="border-b-4 border-transparent mr-4 hover:border-cyan-600" :class="{ 'border-cyan-600' : image === 'image{{ loop.index }}'}" @click.prevent="image = 'image{{ loop.index }}'"><img src="{{ img.gal_img }}" alt="" class="thumb max-w-12 max-h-12"></a>
                 
                 {% endfor %}
             </div>

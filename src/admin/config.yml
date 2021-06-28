@@ -55,7 +55,7 @@ collections:
         required: false
         fields:
           - { label: 'Image', name: 'gal_img', widget: 'image' } 
-          - { label: "Bildunterschrift", name: "caption", widget: "string" }
+          - { label: "Bildunterschrift", name: "caption", widget: "string", required: false }
           - { label: "Title", name: "title", widget: "string" } 
           - { label: "Alt Text", name: "alt", widget: "string" }
       - { label: "Meine Aufgabe(n)", name: "mytasks", widget: "markdown" }
