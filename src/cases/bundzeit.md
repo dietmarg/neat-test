@@ -47,7 +47,7 @@ galleryimg:
   - gal_img: /static/img/bundzeit_06.jpg
     alt: Abbildung letzte Seite Bundzeit
     title: Bundzeit
-    caption: Heftplanung, Recherche, Schreiben, Fotoredaktion
+    caption: ""
 result: Mehrere Dutzend Ausgaben seit Herbst 2011, abrufbar unter
   [www.bundzeit.de](http://www.bundzeit.de)
 teaserimg:
