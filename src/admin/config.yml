@@ -51,11 +51,10 @@ collections:
       - label: "Bilder"
         name: galleryimg
         widget: list
-        max: 5
         required: false
         fields:
           - { label: 'Image', name: 'gal_img', widget: 'image' } 
-          - { label: "Bildunterschrift", name: "caption", widget: "string", required: false }
+          - { label: "Bildunterschrift", name: "caption", widget: "string", required: }
           - { label: "Title", name: "title", widget: "string" } 
           - { label: "Alt Text", name: "alt", widget: "string" }
       - { label: "Meine Aufgabe(n)", name: "mytasks", widget: "markdown" }
@@ -121,7 +120,6 @@ collections:
             name: expertise
             widget: object
             fields:
-              - { label: 'Image', name: 'image', widget: 'image' } 
               - { label: "Title", name: "title", widget: "string" } 
               - { label: "Body", name: "body", widget: "markdown", required: false } 
           - label: Mein Profil

@@ -25,6 +25,8 @@ p, section {
   @apply mb-4;
 }
 
+[x-cloak] { display: none }
+
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],

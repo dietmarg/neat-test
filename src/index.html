@@ -72,6 +72,7 @@ path: home
 
       <div
         class="border-l border-b border-r border-gray-200 max-w-md mx-auto rounded cursor-pointer transition duration-300 ease-in-out hover:shadow-md"
+        x-cloak
         x-data="{ isOpen: false }"
       >
         <div @click="isOpen = true">
@@ -223,12 +224,12 @@ path: home
       </h2>
     </div>
     <div
-      class="text-center md:text-left lg:max-w-4xl md:grid md:grid-cols-3 gap-2 mx-auto"
+      class="text-center md:text-left lg:max-w-4xl mx-auto"
     >
-      <div class="mb-4">
+     {#  <div class="mb-4">
         <img src="{{ frontpage.expertise.image }}" alt="" class="mx-auto" />
-      </div>
-      <div class="col-span-2">
+      </div> #}
+      <div class="max-w-prose mx-auto">
         <h3>{{ frontpage.expertise.title }}</h3>
         <p>{{ frontpage.expertise.body | md | safe }}</p>
       </div>
@@ -268,7 +269,7 @@ path: home
       </h2>
 
       <div
-        class="md:text-left lg:max-w-4xl md:grid md:grid-cols-4 gap-2 px-4 lg:px-0 mx-auto"
+        class="md:text-left lg:max-w-4xl md:grid md:grid-cols-4 gap-8 px-4 lg:px-0 mx-auto"
         x-data="{ isOpen: false }"
       >
         <div>
@@ -278,7 +279,7 @@ path: home
             class="rounded-full h-48 mx-auto"
           />
         </div>
-        <div class="col-span-3">
+        <div class="col-span-3 max-w-prose">
           <h3>{{ frontpage.profile.title }}</h3>
           <p>{{ frontpage.profile.body | md | safe }}</p>
           {% if frontpage.profile.addtext %}
