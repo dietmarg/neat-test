@@ -44,7 +44,7 @@ collections:
         widget: object
         required: false
         fields:
-          - { label: 'Image', name: 'main_img', widget: 'image' } 
+          - { label: 'Image', name: 'main_img', widget: 'image', hint: 'Größe 700 x 471 Pixel' } 
           - { label: "Title", name: "title", widget: "string" } 
           - { label: "Alt Text", name: "alt", widget: "string" }
       - { label: "Description", name: "description", widget: "markdown" }
@@ -54,7 +54,7 @@ collections:
         required: false
         fields:
           - { label: 'Image', name: 'gal_img', widget: 'image' } 
-          - { label: "Bildunterschrift", name: "caption", widget: "string", required: }
+          - { label: "Bildunterschrift", name: "caption", widget: "string", required: false}
           - { label: "Title", name: "title", widget: "string" } 
           - { label: "Alt Text", name: "alt", widget: "string" }
       - { label: "Meine Aufgabe(n)", name: "mytasks", widget: "markdown" }
@@ -64,7 +64,7 @@ collections:
         widget: object
         required: false
         fields:
-          - { label: 'Teaserbild', name: 'img', widget: 'image', default: '/static/img/klee_teaser_default.jpg', required: false }
+          - { label: 'Teaserbild', name: 'img', widget: 'image', default: '/static/img/klee_teaser_default.jpg', required: false, hint: 'Größe 357 x 271 Pixel' }
           - { label: "Alt Text", name: alt, widget: string }  
       - widget: select
         label: "Leistungen"
@@ -126,7 +126,7 @@ collections:
             name: profile
             widget: object
             fields:
-              - { label: 'Image', name: 'image', widget: 'image' } 
+              - { label: 'Image', name: 'image', widget: 'image', hint: 'Größe 300 x 300 Pixel' } 
               - { label: "Title", name: "title", widget: "string" } 
               - { label: "Body", name: "body", widget: "markdown", required: true }
               - { label: "ErweiterterText", name: "addtext", widget: "markdown", required: false }
@@ -154,7 +154,7 @@ collections:
                 widget: object
                 allow_multiple: false
                 fields:
-                  - { label: "Bild", name: "url", widget: "image" }
+                  - { label: "Bild", name: "url", widget: "image", hint: 'Größe ca. 450 x 300 Pixel, Querformat bis Quardatisch, kein Hochformat' }
                   - { label: "Alt Text", name: "alt", widget: "string" } 
           - {label: Text, name: text_bottom, widget: markdown}       
       - label: Impressum und Datenschutz
