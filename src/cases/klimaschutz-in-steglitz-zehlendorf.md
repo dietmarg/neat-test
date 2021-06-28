@@ -34,7 +34,7 @@ result: 25 Klimaschutztipps, ein Flyer, ein Poster sowie mehrere Websitetexte
   auf
   [www.klimaSZ.de](https://www.berlin.de/ba-steglitz-zehlendorf/politik-und-verwaltung/aemter/umwelt-und-naturschutzamt/zukunft/artikel.37305.php)
 teaserimg:
-  img: /static/img/klimasz_teaser.jpg
+  img: /static/img/zero-waste-teaser.jpg
   alt: Klimaschutz in Steglitz-Zehlendorf
 tasks:
   - schreiben
