@@ -53,7 +53,7 @@ collections:
         widget: list
         required: false
         fields:
-          - { label: 'Image', name: 'gal_img', widget: 'image' } 
+          - { label: 'Image', name: 'gal_img', widget: 'image', hint: 'Höhe 450px, Breite <= 650px' } 
           - { label: "Bildunterschrift", name: "caption", widget: "string", required: false}
           - { label: "Title", name: "title", widget: "string" } 
           - { label: "Alt Text", name: "alt", widget: "string" }
