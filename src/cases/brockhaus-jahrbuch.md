@@ -1,4 +1,5 @@
 ---
+title: Brockhaus Jahrbuch
 mytasks: Afghanistan, Ägypten, Algerien, Armenien, Äthiopien, Bahrain, Brunei,
   Burkino Faso, Dschibuti, Elfenbeinkäste, Eswatini (bis 2018 Swasiland),
   Gambia, Guinea, Guinea-Bissau, Irak, Iran, Israel, Jemen, Jordanien, Kamerun,
@@ -15,10 +16,9 @@ mytasks: Afghanistan, Ägypten, Algerien, Armenien, Äthiopien, Bahrain, Brunei,
   Quelle.
 caserelprojects:
   - Zero-Waste-Blog
-  - BUNDzeit
   - Klimaschutz in Steglitz-Zehlendorf
+  - Test
 img: /static/img/brockhaus-teaser.jpg
-title: Brockhaus Jahrbuch
 mainimg:
   main_img: /static/img/brockhaus-main.jpg
   title: Brockhaus Jahrbuch
