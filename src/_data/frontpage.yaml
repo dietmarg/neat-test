@@ -18,8 +18,8 @@ services:
       - Zero-Waste-Blog
       - BUNDzeit
   - title: Lektorieren
-    description: Lassen Sie mich Ihre Texte vor der Veröffentlichung inhaltlich,
-      stilistisch und formal verbessern.
+    description: Ich optimiere Ihre Texte vor der Veröffentlichung inhaltlich,
+      stilistisch und formal.
     icon: book-open
     body: >-
       *Lassen Sie mich Ihre Texte verbessern!*
@@ -37,9 +37,7 @@ services:
       - WWF-Studien
       - BUNDzeit
   - title: Faktencheck
-    description: "Vom Konzept über die Recherche bis zur Ausformulierung übernehme
-      ich alle Schritte der Textproduktion, natürlich exklusiv und individuell.
-      "
+    description: Ich überprüfe, ob sich alle Aussagen in Ihrem Text belegen lassen.
     icon: search
     body: >-
       *Misstrauen Sie dem geschriebenen Wort!*
@@ -47,15 +45,13 @@ services:
 
       Ich übernehme den **Faktencheck** in Ihrer Publikation: Lassen sich alle Aussagen mit seriösen Quellen belegen? Bestätigen andere Quellen das Geschriebene? Sind alle Daten aktuell? Um ganz sicher zu gehen, nutze ich Offline-Quellen, Datenbanken und alle Möglichkeiten der Suchmaschinensuche.
   - title: Webredaktion
-    description: "Vom Konzept über die Recherche bis zur Ausformulierung übernehme
-      ich alle Schritte der Textproduktion, natürlich exklusiv und individuell.
-      "
+    description: Ich stelle Ihre Texte ins Netz.
     icon: desktop-computer
     body: >-
-      *Verraten Sie uns das Passwort!*
+      *Verraten Sie mir das Passwort!*
 
 
-      Wir entlasten Sie bei der **Webredaktion**: Gemeinsam mit meinem Kollegen Herwig Frenzel, mit dem ich mehrere Jahre lang für den Internetauftritt unseres Berufsverbands VFLL verantwortlich war, übernehme ich für Vereine und Institutionen Redaktionsarbeiten in Typo3 und anderen Content-Management-Systemen.
+      Ich entlaste Sie bei der **Webredaktion**: Gemeinsam mit meinem Kollegen Herwig Frenzel, mit dem ich mehrere Jahre lang für den Internetauftritt unseres Berufsverbands VFLL verantwortlich war, übernehme ich für Vereine und Institutionen Redaktionsarbeiten in Typo3 und anderen Content-Management-Systemen.
 
 
       Wir stellen Ihre Inhalte nicht bloß ins Netz, sondern erledigen als erfahrene Redakteure die Schlussredaktion und sorgen für passende Headlines, Teaser und Bilder. Als Profis in der **Verbandskommunikation** bewegen wir uns leichtfüßig im Spannungsfeld zwischen Hauptamtlichen, Vorstand und Ehrenamtlichen.
