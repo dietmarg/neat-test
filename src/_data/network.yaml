@@ -1,28 +1,9 @@
 title: Meine Kooperationspartner
-text: >-
-  Textgeneratoren und Korrekturprogramme können den Menschen noch lange nicht
-  beim Schreiben und Lektorieren ersetzen. Wenn Sie mich mit Textarbeiten
+text: Textgeneratoren und Korrekturprogramme können den Menschen noch lange
+  nicht beim Schreiben und Lektorieren ersetzen. Wenn Sie mich mit Textarbeiten
   beauftragen, bekommen Sie eine persönliche, ausschließlich von mir erbrachte
   Dienstleistung. Bei größeren Projekten kooperiere ich mit Kolleginnen und
   Kollegen aus meinem Netzwerk.
-
-
-  Herwig Frenzel: Lektor für Wirtschaft, Verbände und Technik
-
-
-  Eva Hauck und Claudia Lüdtke: Lektorinnen für Schulbücher, Autorinnen für Bastelliteratur, Expertinnen für Leichte Sprache
-
-
-  Corina Alt: Lektorin für Wirtschaft und Politik
-
-
-  Traudl Kupfer: Autorin, Redakteurin und Lektorin für Wirtschaft, Politik und Reisen
-
-
-  Andrea Rentschler: Texterin und Lektorin mit Schwerpunkt Mode und Luxus
-
-
-  Claudia Winter und Oliver Temmler (sujet): Agentur für Kommunikationsdesign
 networkers:
   - img:
       - img: /static/img/dspunkt_logo.jpg
@@ -70,3 +51,6 @@ partners:
     img:
       url: /static/img/andrea_rentschler.jpg
       alt: Andrea Rentschler
+text_bottom: Noch mehr Menschen, die Textdienstleistungen anbieten, finden Sie
+  unter [die-textprofis.de](www.die-textprofis.de) und
+  [lektor-in-finden.de](www.lektoren.de).
