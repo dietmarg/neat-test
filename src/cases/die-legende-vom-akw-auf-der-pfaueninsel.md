@@ -1,9 +1,9 @@
 ---
 title: Die Legende vom AKW auf der Pfaueninsel
 mainimg:
-  main_img: /static/img/pfaueninsel-mit-pfau.jpg
-  alt: Collage Pfau und Schloss Pfaueninsel
-  title: laberlaber
+  main_img: /static/img/pfaueninselblick-norden.jpg
+  alt: Uferpflanzen vor einem Gewässer
+  title: Blick von der Pfaueninsel auf die Havel in Richtung Nordosten
 description: Das Inselchen am südwestlichen Stadtrand von Berlin ist für seine
   Schlösser, die grandiose Landschaftsarchitektur und für die namensgebenden
   Tiere bekannt; es ist einer der beliebtesten Ausflugsorte der Hauptstadt. Im
@@ -22,8 +22,12 @@ result: Die Legende vom AKW auf der Pfaueninsel, 2017 veröffentlicht auf dem
   und in englischer Übersetzung im [Occulto
   Magazine](https://www.occultomagazine.com/issue-h/)
 teaserimg:
-  img: /static/img/zero-waste-mainimg.jpg
-  alt: Zero-Waste-Blog
+  img: /static/img/pfaueninsel-mit-pfau.jpg
+  alt: Collage Pfau vor Pfaueninselschloss
 tasks:
   - faktencheck
+  - schreiben
+caserelprojects:
+  - Brockhaus Jahrbuch
+  - Zero-Waste-Blog
 ---
