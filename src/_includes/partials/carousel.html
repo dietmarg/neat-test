@@ -53,8 +53,10 @@
             <div class="flex flex-col rounded shadow overflow-hidden">
                 <a href="{{ case.url | url }}">
                 <div class="flex-shrink-0 transition duration-300 ease-in-out hover:shadow-md transform hover:scale-105">
-                <img class="h-48 w-full object-cover" src="{{ case.data.teaserimg.img }}" alt="{{ case.data.teaserimg.alt }}">
-                <div class="text-white text-left bg-gray-700 p-4">
+                <img class="h-48 w-full object-cover" src="{{ case.data.teaserimg.img }}" alt="{{ case.data.teaserimg.alt }}"> 
+               
+                {# {% image case.data.teaserimg.img, "green clover background", "h-full w-full object-cover" %}#}
+                 <div class="text-white text-left bg-gray-700 p-4">
                     <p>{{ case.data.title }}</p>
                     {% for task in case.data.tasks %}
                         {% if loop.last %} <span class="capitalize"><small>{{ task }}</small></span>{% else %}
