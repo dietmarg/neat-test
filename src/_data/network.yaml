@@ -51,6 +51,12 @@ partners:
     img:
       url: /static/img/andrea_rentschler.jpg
       alt: Andrea Rentschler
+  - name: Eva Hauck
+    description: Lektorin für Schulbücher, Autorin für Bastelbücher
+    url: https://derspringendepunkt.de
+    img:
+      url: /static/img/eva-hauck.jpg
+      alt: Eva Hauck
 text_bottom: Noch mehr Menschen, die Textdienstleistungen anbieten, finden Sie
   unter [die-textprofis.de](https://die-textprofis.de/) und
   [lektor-in-finden.de](https://www.lektoren.de/).
