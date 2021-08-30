@@ -50,6 +50,12 @@ partners:
     img:
       url: /static/img/eva-hauck.jpg
       alt: Eva Hauck
+  - name: Claudia Lüdtke
+    description: Lektorin für Schulbücher, Expertin für Leichte Sprache
+    url: https://derspringendepunkt.de/
+    img:
+      alt: Claudia Lüdtke
+      url: /static/img/claudia-luedtke.jpg
 text_bottom: Noch mehr Menschen, die Textdienstleistungen anbieten, finden Sie
   unter [die-textprofis.de](https://die-textprofis.de/) und
   [lektor-in-finden.de](https://www.lektoren.de/).
