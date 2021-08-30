@@ -20,43 +20,42 @@ networkers:
         alt: Porträt HF
     url: https://www.lectormedia.de/
 partners:
-  - name: Herwig Frenzel
-    img:
-      url: /static/img/bild-herwig-frenzel.jpg
-      alt: Portrait HF
-    description: Lektor für Wirtschaft, Verbände und Technik
-    url: https://www.lectormedia.de/
-  - name: Eva Hauck & Claudia Lüdtke
-    description: Lektorinnen für Schulbücher, Autorinnen für Bastelliteratur,
-      Expertinnen für Leichte Sprache
-    url: https://derspringendepunkt.de/
-    img:
-      url: /static/img/dsp_450.png
-      alt: Porträt Eva Hauck und Claudia Lüdtke
   - name: Corina Alt
     description: Lektorin für Wirtschaft und Politik
     url: http://www.publicate.eu
     img:
       url: /static/img/corina-alt.jpg
       alt: Corina Alt
-  - name: Traudl Kupfer
-    description: Autorin, Redakteurin und Lektorin für Wirtschaft, Politik und Reisen
-    url: http://www.traudl-kupfer.de
+  - name: Herwig Frenzel
     img:
-      url: /static/img/traudl-kupfer.jpg
-      alt: Traudl Kupfer
-  - name: Andrea Rentschler
-    description: Texterin und Lektorin mit Schwerpunkt Mode und Luxus
-    url: https://andrearentschler.de/
-    img:
-      url: /static/img/andrea_rentschler.jpg
-      alt: Andrea Rentschler
+      url: /static/img/bild-herwig-frenzel.jpg
+      alt: Portrait HF
+    description: Lektor für Wirtschaft, Verbände und Technik
+    url: https://www.lectormedia.de/
   - name: Eva Hauck
     description: Lektorin für Schulbücher, Autorin für Bastelbücher
     url: https://derspringendepunkt.de
     img:
       url: /static/img/eva-hauck.jpg
       alt: Eva Hauck
+  - name: Traudl Kupfer
+    description: Autorin, Redakteurin und Lektorin für Wirtschaft, Politik und Reisen
+    url: http://www.traudl-kupfer.de
+    img:
+      url: /static/img/traudl-kupfer.jpg
+      alt: Traudl Kupfer
+  - name: Claudia Lüdtke
+    description: Lektorin für Schulbücher, Expertin für Leichte Sprache
+    url: https://derspringendepunkt.de/
+    img:
+      alt: Claudia Lüdtke
+      url: /static/img/claudia-luedtke.jpg
+  - name: Andrea Rentschler
+    description: Texterin und Lektorin mit Schwerpunkt Mode und Luxus
+    url: https://andrearentschler.de/
+    img:
+      url: /static/img/andrea_rentschler.jpg
+      alt: Andrea Rentschler
 text_bottom: Noch mehr Menschen, die Textdienstleistungen anbieten, finden Sie
   unter [die-textprofis.de](https://die-textprofis.de/) und
   [lektor-in-finden.de](https://www.lektoren.de/).
