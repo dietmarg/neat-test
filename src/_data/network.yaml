@@ -20,25 +20,18 @@ networkers:
         alt: Porträt HF
     url: https://www.lectormedia.de/
 partners:
-  - name: Herwig Frenzel
-    img:
-      url: /static/img/bild-herwig-frenzel.jpg
-      alt: Portrait HF
-    description: Lektor für Wirtschaft, Verbände und Technik
-    url: https://www.lectormedia.de/
-  - name: Eva Hauck & Claudia Lüdtke
-    description: Lektorinnen für Schulbücher, Autorinnen für Bastelliteratur,
-      Expertinnen für Leichte Sprache
-    url: https://derspringendepunkt.de/
-    img:
-      url: /static/img/dsp_450.png
-      alt: Porträt Eva Hauck und Claudia Lüdtke
   - name: Corina Alt
     description: Lektorin für Wirtschaft und Politik
     url: http://www.publicate.eu
     img:
       url: /static/img/corina-alt.jpg
       alt: Corina Alt
+  - name: Herwig Frenzel
+    img:
+      url: /static/img/bild-herwig-frenzel.jpg
+      alt: Portrait HF
+    description: Lektor für Wirtschaft, Verbände und Technik
+    url: https://www.lectormedia.de/
   - name: Traudl Kupfer
     description: Autorin, Redakteurin und Lektorin für Wirtschaft, Politik und Reisen
     url: http://www.traudl-kupfer.de
