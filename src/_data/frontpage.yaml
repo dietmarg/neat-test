@@ -2,8 +2,8 @@ title: Sebastian Petrich
 subline: Texter, Redakteur, Lektor, Autor,<br>Experte für politische Kommunikation
 services:
   - title: Schreiben
-    description: Vom Konzept über die Recherche bis zur Ausformulierung übernehme
-      ich alle Schritte der Textproduktion, natürlich exklusiv und individuell.
+    description: Ich übernehme für Sie die Textproduktion, natürlich exklusiv und
+      individuell.
     body: >-
       *Ich schreibe Ihren Text.*    
 
@@ -14,9 +14,9 @@ services:
       Falls Sie noch nicht wissen, wie Ihre Publikation aufgebaut sein soll, erarbeite ich Ihnen ein **Konzept**. Beim Schreiben stütze ich mich auf Ihre Informationen oder stelle eigene **Recherchen** an, wobei ich die Quellen säuberlich dokumentiere. Und selbstverständlich schlage ich den zielgruppengerechten Ton an.
     icon: pencil
     servicerelprojects:
-      - WWF-Studien
-      - Zero-Waste-Blog
       - BUNDzeit
+      - Brockhaus Jahrbuch
+      - Klimaschutz in Steglitz-Zehlendorf
   - title: Lektorieren
     description: Ich optimiere Ihre Texte vor der Veröffentlichung inhaltlich,
       stilistisch und formal.
