@@ -41,7 +41,8 @@ galleryimg:
 result: Jeweils über 50 Lemmata in den Brockhaus Jahrbüchern seit 2011
 teaserimg:
   img: /static/img/brockhaus-teaser.jpg
-  alt: Abbildung einer Seite aus dem Brockhaus mit Kartenausschnitt von Westafrika
+  alt: Abbildung einer Seite aus dem Brockhaus Jahrbuch 2019 mit Kartenausschnitt
+    von Westafrika
 tasks:
   - schreiben
   - faktencheck
