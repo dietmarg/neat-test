@@ -1,5 +1,4 @@
 ---
-title: Brockhaus Jahrbuch
 mytasks: Afghanistan, Ägypten, Algerien, Armenien, Äthiopien, Bahrain, Brunei,
   Burkino Faso, Dschibuti, Elfenbeinkäste, Eswatini (bis 2018 Swasiland),
   Gambia, Guinea, Guinea-Bissau, Irak, Iran, Israel, Jemen, Jordanien, Kamerun,
@@ -19,6 +18,7 @@ caserelprojects:
   - Klimaschutz in Steglitz-Zehlendorf
   - Test
 img: /static/img/brockhaus-teaser.jpg
+title: Brockhaus Jahrbuch
 mainimg:
   main_img: /static/img/brockhaus-main.jpg
   title: Brockhaus Jahrbuch
@@ -33,6 +33,11 @@ description: Kaum ist es gedruckt und ausgeliefert, veraltet ein Lexikon schon.
   Käufer mit einem Exemplar der letzten Auflage auch den Anspruch auf einen
   jährlichen Ergänzungsband erworben. Darüber freue ich mich sehr, denn seit
   2011 gehöre ich zum Autorenteam.
+galleryimg:
+  - gal_img: /static/img/brockhaus-jahrbuch-2019_suedafrika-sudan-suedsudan.jpg
+    title: Brockhaus Jahrbuch 2019
+    alt: Das aufgeschlagene Brockhaus Jahrbuch 2019 mit den Einträgen zu Südafrika,
+      Sudan und Südsudan
 result: Jeweils über 50 Lemmata in den Brockhaus Jahrbüchern seit 2011
 teaserimg:
   img: /static/img/brockhaus-teaser.jpg
