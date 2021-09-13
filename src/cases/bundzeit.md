@@ -1,5 +1,4 @@
 ---
-title: BUNDzeit
 mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
   BUND-Landesverbänden geklärt habe, was in der kommenden Ausgabe behandelt
   werden soll, stelle ich einen Seitenplan zusammen. Dann beginnt die
@@ -17,10 +16,11 @@ caserelprojects:
   - WWF-Studien
   - Brockhaus Jahrbuch
 img: /static/img/bundzeit_teserimg.jpg
+title: BUNDzeit
 mainimg:
   main_img: /static/img/bundzeit_main.jpg
-  title: Screenshop BUNDzeit
-  alt: Screenshop BUNDzeit zeigt Logo und Artikel-Intro
+  title: Screenshot BUNDzeit
+  alt: Screenshot BUNDzeit zeigt Logo und Artikel-Intro
 description: "Die viermal jährlich in einer Auflage von 30.000 Stück
   erscheinende BUNDzeit hat zwei Funktionen. Zum einen dient sie den
   Landesverbänden des Bund für Umwelt und Naturschutz Deutschland (BUND) in
