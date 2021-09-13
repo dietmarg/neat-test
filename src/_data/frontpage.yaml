@@ -18,14 +18,13 @@ services:
       - Brockhaus Jahrbuch
       - Klimaschutz in Steglitz-Zehlendorf
   - title: Lektorieren
-    description: Ich optimiere Ihre Texte vor der Veröffentlichung inhaltlich,
-      stilistisch und formal.
+    description: Ich optimiere Ihre Texte inhaltlich, stilistisch und formal.
     icon: book-open
     body: >-
       *Lassen Sie mich Ihre Texte verbessern!*
 
 
-      Ich optimiere, was andere *geschrieben* haben: Jahresberichte, Broschüren, Studien, Schulungsunterlagen, Positionspapiere, Förderanträge, FAQs, Ihren neuen Internetauftritt, Mitglieder-, Kunden- und Mitarbeiterzeitschriften.
+      Ich optimiere, was andere geschrieben haben: Jahresberichte, Broschüren, Studien, Schulungsunterlagen, Positionspapiere, Förderanträge, FAQs, Ihren neuen Internetauftritt, Mitglieder-, Kunden- und Mitarbeiterzeitschriften.
 
 
       Beim **Lektorat** stehen Verständlichkeit und Lesevergnügen im Vordergrund. Als erster Testleser prüfe ich, ob die Gliederung überzeugt und die Argumentation plausibel erscheint. Wenn nötig kürze ich den Text auf die gewünschte Länge, vereinfache den Satzbau, vermeide Wortwiederholungen und sorge für das einheitliche Wording. Nebenbei geht es Rechtschreib-, Grammatik- und Zeichensetzungsfehlern an den Kragen– dies ersetzt aber nicht eine separate Korrekturrunde.
@@ -33,9 +32,7 @@ services:
 
       Bei der **Schlussredaktion** hingegen ist es zu spät für stilistische und inhaltliche Verbesserungen. Wenn der Text erst einmal gesetzt ist, markiere ich die verbliebenen Tippfehler, überprüfe Eigennamen und Links und werfe einen besonders kritischen Blick auf Überschriften, Bildlegenden und Zeilenumbrüche.
     servicerelprojects:
-      - Zero-Waste-Blog
       - WWF-Studien
-      - BUNDzeit
   - title: Faktencheck
     description: Ich überprüfe, ob sich alle Aussagen in Ihrem Text belegen lassen.
     icon: search
