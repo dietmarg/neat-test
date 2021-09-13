@@ -34,7 +34,7 @@ services:
     servicerelprojects:
       - WWF-Studien
   - title: Faktencheck
-    description: Ich überprüfe, ob sich alle Aussagen in Ihrem Text belegen lassen.
+    description: Ich überprüfe die Aussagen in Ihrem Text.
     icon: search
     body: >-
       *Misstrauen Sie dem geschriebenen Wort!*
