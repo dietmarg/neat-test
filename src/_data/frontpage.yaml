@@ -41,6 +41,8 @@ services:
 
 
       Ich übernehme den **Faktencheck** in Ihrer Publikation: Lassen sich alle Aussagen mit seriösen Quellen belegen? Bestätigen andere Quellen das Geschriebene? Sind alle Daten aktuell? Um ganz sicher zu gehen, nutze ich Offline-Quellen, Datenbanken und alle Möglichkeiten der Suchmaschinensuche.
+    servicerelprojects:
+      - Brockhaus Jahrbuch
   - title: Webredaktion
     description: Ich stelle Ihre Texte ins Netz.
     icon: desktop-computer
