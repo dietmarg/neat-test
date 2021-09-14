@@ -29,10 +29,10 @@ description: Kaum ist es gedruckt und ausgeliefert, veraltet ein Lexikon schon.
   Goldschnitt fassen die Bücher das Geschehen des Jahres zusammen, natürlich im
   klassischen Lexikonstil präsentiert. Die letzte gedruckte, 30-bändige Ausgabe
   der Enzyklopädie erschien 2006, 2014 stellte Bertelsmann den Vertrieb des
-  Lexikons ein. Doch das Jahrbuch erscheint weiterhin, schließlich haben die
-  Käufer mit einem Exemplar der letzten Auflage auch den Anspruch auf einen
-  jährlichen Ergänzungsband erworben. Darüber freue ich mich sehr, denn seit
-  2011 gehöre ich zum Autorenteam.
+  Lexikons ein. Doch das Jahrbuch erscheint weiterhin, schließlich hat die
+  zahlende Kundschaft mit einem Exemplar der letzten Auflage auch den Anspruch
+  auf einen jährlichen Ergänzungsband erworben. Darüber freue ich mich sehr,
+  denn seit 2011 gehöre ich zum Autorenteam.
 galleryimg:
   - gal_img: /static/img/brockhaus-jahrbuch-2019_suedafrika-sudan-suedsudan.jpg
     title: Brockhaus Jahrbuch 2019
