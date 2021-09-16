@@ -35,23 +35,23 @@ galleryimg:
   - gal_img: /static/img/bundzeit_03.jpg
     title: BUNDzeit
     alt: Abbildung Doppelseite Titelthema BUNDzeit
-    caption: Heftplanung, Recherche, Schreiben, Fotoredaktion
+    caption: ""
   - gal_img: /static/img/bundzeit_04.jpg
     title: "BUNDzeit "
     alt: Abbildung Doppelseite Aktuelles BUNDzeit
     caption: ""
   - gal_img: /static/img/bundzeit_05.jpg
-    alt: Abbildung Doppelseite Bundzeit mit Fotos
+    alt: Abbildung Doppelseite BUNDzeit mit Fotos
     title: Bundzeit
-    caption: Doppelseite BUNDzeit
+    caption: ""
   - gal_img: /static/img/bundzeit_06.jpg
-    alt: Abbildung letzte Seite Bundzeit
-    title: Bundzeit
+    alt: Abbildung letzte Seite BUNDzeit
+    title: BUNDzeit
     caption: ""
 result: Mehrere Dutzend Ausgaben seit Herbst 2011, abrufbar unter
   [www.bundzeit.de](http://www.bundzeit.de)
 teaserimg:
-  img: /static/img/bundzeit_teserimg.jpg
+  img: /static/img/bundzeit-ausgaben.jpg
   alt: BUNDzeit Coverabbildung
 tasks:
   - schreiben
