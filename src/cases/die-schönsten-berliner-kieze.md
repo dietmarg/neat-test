@@ -1,9 +1,9 @@
 ---
 title: Die schönsten Berliner Kieze
 mainimg:
-  main_img: /static/img/kiezbuch-mit-katze.jpg
+  main_img: /static/img/kiezbuch_01.jpg
   title: Die schönsten Berliner Kieze
-  alt: Katze mit Buch
+  alt: "Titelansicht Sebastian Petrich, Die schönsten Berliner Kieze "
 description: Das Wort „Kiez“ hat in den vergangenen Jahren in Berlin Karriere
   gemacht. Aus Kneipe wurde Kiezkneipe, aus Wohnviertel Wohnkiez und aus Frisör
   Kiezfrisör. In ihren Anzeigen hängt die Immobilienwirtschaft gern mal diese
@@ -34,7 +34,7 @@ result: "Ergebnis: [Sebastian Petrich, Die schönsten Berliner Kieze, Berlin,
   id%5D=5). Nachdem die erste und zweite Auflage verkauft wurden, ist derzeit
   eine aktualisierte Neuauflage mit Fotos von Jo Jankowski in Arbeit."
 teaserimg:
-  img: /static/img/kiezbuch_01.jpg
+  img: /static/img/kiezbuch-mit-katze.jpg
   alt: Die schönsten Berliner Kieze
 tasks:
   - schreiben
