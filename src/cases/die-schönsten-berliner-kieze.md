@@ -27,12 +27,14 @@ mytasks: "Mit der Entscheidung für 20 Kieze ging die Arbeit erst richtig los:
   mit Dutzenden Menschen sprechen und sich selbst durch die Kieze treiben
   lassen, um ein ortsspezifisches Feeling zu entwickeln. Und das Ganze auch noch
   aufschreiben. Nicht meine Aufgabe war es, die Bilder für das Buch zu schießen;
-  diesen Job erledigte Jürgen Henkelmann mit Bravour."
+  diesen Job erledigte [Jürgen Henkelmann](https://www.henkelmannphoto.com/) mit
+  Bravour."
 result: "Ergebnis: [Sebastian Petrich, Die schönsten Berliner Kieze, Berlin,
   Elsengold,
   2014](https://www.elsengold.de/detailansicht-buch/?tx_browser_pi1%5BproductsU\
   id%5D=5). Nachdem die erste und zweite Auflage verkauft wurden, ist derzeit
-  eine aktualisierte Neuauflage mit Fotos von Jo Jankowski in Arbeit."
+  eine aktualisierte Neuauflage mit Fotos von [Jo
+  Jankowski](https://www.jojankowski.com) in Arbeit."
 teaserimg:
   img: /static/img/katze-mit-kiezbuch.jpg
   alt: Die schönsten Berliner Kieze
