@@ -34,7 +34,7 @@ result: "Ergebnis: [Sebastian Petrich, Die schönsten Berliner Kieze, Berlin,
   id%5D=5). Nachdem die erste und zweite Auflage verkauft wurden, ist derzeit
   eine aktualisierte Neuauflage mit Fotos von Jo Jankowski in Arbeit."
 teaserimg:
-  img: /static/img/kiezbuch-mit-katze.jpg
+  img: /static/img/katze-mit-kiezbuch.jpg
   alt: Die schönsten Berliner Kieze
 tasks:
   - schreiben
