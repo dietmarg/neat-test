@@ -1,7 +1,7 @@
 ---
 title: Klimaschutz in Steglitz-Zehlendorf
 mainimg:
-  main_img: /static/img/klima_sz_tipp_hitze_breit.jpg
+  main_img: /static/img/klima-sz_logo_700.jpg
   title: Klimaschutz in Steglitz-Zehlendorf
   alt: Bezirkliches Klimaschutzmanagement in Steglitz-Zehlendorf
 description: Der Bezirk im Südwesten Berlins hat seit 2011 ein eigenes
