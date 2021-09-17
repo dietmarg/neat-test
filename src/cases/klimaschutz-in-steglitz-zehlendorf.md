@@ -12,10 +12,6 @@ description: Der Bezirk im Südwesten Berlins hat seit 2011 ein eigenes
   und Bürger besser über das Thema zu informieren und zu mehr eigenen Beiträgen
   zum Klimaschutz zu motivieren. An dieser Stelle kam ich als Texter ins Spiel.
 galleryimg:
-  - gal_img: /static/img/klima-sz_01.jpg
-    caption: ""
-    title: Website Bezirksamt Steglitz-Zehlendorf, Startseite Klimaschutz
-    alt: Screenshot Website Bezirksamt Steglitz-Zehlendorf
   - gal_img: /static/img/klima-sz_03.jpg
     caption: ""
     title: Chronik der Klimaschutzgeschichte von Steglitz-Zehlendorf
@@ -27,6 +23,9 @@ galleryimg:
     caption: ""
     title: Flyer Klimaschutz in Steglitz-Zehlendorf, Seite 2
     alt: Flyer mit Projektlogo Klimaschutz Steglitz-Zehlendorf
+  - gal_img: /static/img/klima_sz_tipp_hitze_breit.jpg
+    title: Klimaschutztipp Wohnung kühlen
+    alt: Ausschnitt aus einem Flyer mit Projektlogo Klimaschutz Steglitz-Zehlendorf
 mytasks: "Für das Klimaschutzportal klimaSZ.de schrieb ich unter anderem den
   einleitenden Text „Klimaschutz in Steglitz-Zehlendorf: Was wir im Bezirk tun
   (müssen)“, eine Bestandsaufnahme zur Sanierung der öffentlichen Gebäude, eine
