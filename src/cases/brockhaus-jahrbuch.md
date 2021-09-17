@@ -1,6 +1,6 @@
 ---
 mytasks: Afghanistan, Ägypten, Algerien, Armenien, Äthiopien, Bahrain, Brunei,
-  Burkino Faso, Dschibuti, Elfenbeinkäste, Eswatini (bis 2018 Swasiland),
+  Burkina Faso, Dschibuti, Elfenbeinküste, Eswatini (bis 2018 Swasiland),
   Gambia, Guinea, Guinea-Bissau, Irak, Iran, Israel, Jemen, Jordanien, Kamerun,
   Katar, Kenia, Kuwait, Lesotho, Libanon, Liberia, Libyen, Mali, Marokko,
   Mauretanien, Namibia, Niger, Nigeria, Oman, die palästinensischen
