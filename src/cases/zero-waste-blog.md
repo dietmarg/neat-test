@@ -15,7 +15,17 @@ title: Zero-Waste-Blog
 mainimg:
   main_img: /static/img/zero-waste-mainimg.jpg
   title: Zero-Waste-Blog
-  alt: Screenshot Frontpage og zero-waste-blog
+  alt: Screenshot Frontpage des Zero-Waste-Blogs remap-berlin.de
+galleryimg:
+  - gal_img: /static/img/zero-waste-blog_03.jpg
+    title: "CLX 3185 bleibt: Bericht aus dem Repair-Café"
+    alt: Geöffnetes Gehäuse eines Laserdruckers
+  - gal_img: /static/img/zero-waste-blog_abfallfreies-baden.jpg
+    title: Abfallfreies Baden
+    alt: Plastikbecher vor Schwimmbadrutsche
+  - gal_img: /static/img/zero-waste-blog_plastikfasten.jpg
+    title: Plastikfasten
+    alt: Pastaspender in einem Unverpackt-Laden
 teaserimg:
   img: /static/img/zero-waste-teaser.jpg
   alt: Abbildung Berlin Skyline gezeichnet
