@@ -1,7 +1,7 @@
 ---
 title: Die schönsten Berliner Kieze
 mainimg:
-  main_img: /static/img/kiezbuch_01.jpg
+  main_img: /static/img/kiezbuch-titel-mit-leiste.jpg
   title: Die schönsten Berliner Kieze
   alt: "Titelansicht Sebastian Petrich, Die schönsten Berliner Kieze "
 description: Das Wort „Kiez“ hat in den vergangenen Jahren in Berlin Karriere
