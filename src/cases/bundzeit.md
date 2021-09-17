@@ -6,11 +6,11 @@ mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
   führen und die einzelnen Texte schreiben. Besonderes Vergnügen bereiten mir
   dabei die Ausflugsreportagen aus der Rubrik „Natur erleben“. Während die
   Artikel mit denjenigen, die es angeht, abgestimmt werden, suche ich die
-  passenden Bilder heraus – bevorzugt eigene Bilder des Auftraggebers oder aus
-  meinem Archiv, Stockfotos bleiben aus guten Gründen die Ausnahme. Satz und
-  Gestaltung übernimmt auf ebenso solide wie kreative Art Claudia Winter von
-  sujet design. Im letzten Arbeitsschritt organisiere ich das Korrekturlesen und
-  das Einarbeiten der Korrekturen."
+  passenden Bilder heraus – bevorzugt BUND-eigene oder Bilder aus meinem Archiv.
+  Stockfotos bleiben aus guten Gründen die Ausnahme. Satz und Gestaltung
+  übernimmt auf ebenso solide wie kreative Art Claudia Winter von [sujet
+  design](https://sujet.de/). Im letzten Arbeitsschritt organisiere ich das
+  Korrekturlesen und das Einarbeiten der Korrekturen."
 caserelprojects:
   - Zero-Waste-Blog
   - WWF-Studien
