@@ -34,10 +34,9 @@ description: Kaum ist es gedruckt und ausgeliefert, veraltet ein Lexikon schon.
   auf einen jährlichen Ergänzungsband erworben. Darüber freue ich mich sehr,
   denn seit 2011 gehöre ich zum Autorenteam.
 galleryimg:
-  - gal_img: /static/img/brockhaus-jahrbuch-2019_suedafrika-sudan-suedsudan.jpg
-    title: Brockhaus Jahrbuch 2019
-    alt: Das aufgeschlagene Brockhaus Jahrbuch 2019 mit den Einträgen zu Südafrika,
-      Sudan und Südsudan
+  - gal_img: /static/img/brockhaus-jahrbuch-2013_libanon-liberia-libyen.jpg
+    title: Brockhaus Jahrbuch 2013 mit Lemmata Libanon, Liberia und Libyen
+    alt: Doppelseite aus dem Brockhaus Jahrbuch 2013
 result: Jeweils über 50 Lemmata in den Brockhaus Jahrbüchern seit 2011
 teaserimg:
   img: /static/img/brockhaus-teaser.jpg
