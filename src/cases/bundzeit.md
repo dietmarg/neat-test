@@ -51,8 +51,8 @@ galleryimg:
 result: Mehrere Dutzend Ausgaben seit Herbst 2011, abrufbar unter
   [www.bundzeit.de](http://www.bundzeit.de)
 teaserimg:
-  img: /static/img/bundzeit_21-2_titel.jpg
-  alt: Mehrere BUNDzeit-Ausgaben nebeneinander
+  img: /static/img/bundzeit_teserimg.jpg
+  alt: Titelseite BUNDzeit 20-1
 tasks:
   - schreiben
   - webredaktion
