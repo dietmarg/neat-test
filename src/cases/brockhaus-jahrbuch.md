@@ -37,11 +37,13 @@ galleryimg:
   - gal_img: /static/img/brockhaus-jahrbuch-2013_libanon-liberia-libyen.jpg
     title: Brockhaus Jahrbuch 2013 mit Lemmata Libanon, Liberia und Libyen
     alt: Doppelseite aus dem Brockhaus Jahrbuch 2013
+  - gal_img: /static/img/brockhaus-jahrbuch-2013_mandela-mansur-marokka-mauretanien.jpg
+    title: Brockhaus Jahrbuch 2013 mit Lemmata Mandela, Mansur, Marokko, Mauretanien
+    alt: Doppelseite aus dem Brockhaus Jahrbuch 2013
 result: Jeweils über 50 Lemmata in den Brockhaus Jahrbüchern seit 2011
 teaserimg:
   img: /static/img/brockhaus-teaser.jpg
-  alt: Abbildung einer Seite aus dem Brockhaus Jahrbuch 2019 mit Kartenausschnitt
-    von Westafrika
+  alt: Brockhaus Jahrbuch
 tasks:
   - schreiben
   - faktencheck
