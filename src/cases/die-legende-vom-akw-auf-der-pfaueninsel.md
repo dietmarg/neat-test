@@ -5,10 +5,10 @@ mainimg:
   alt: Uferpflanzen vor einem Gewässer
   title: Blick von der Pfaueninsel auf die Havel in Richtung Nordosten
 description: Das Inselchen am südwestlichen Stadtrand von Berlin ist für seine
-  Schlösser, die grandiose Landschaftsarchitektur und für die namensgebenden
-  Tiere bekannt; es ist einer der beliebtesten Ausflugsorte der Hauptstadt. Im
+  Schlösser, die grandiose Landschaftsarchitektur und die namensgebenden Tiere
+  bekannt; es ist einer der beliebtesten Ausflugsorte der Hauptstadt. Im
   Internet und in einigen Büchern und Zeitschriften kursiert allerdings eine
-  beunruhigende Geschichte. Unter Willy Brandt soll der West-Berliner Senat ein
+  seltsame Geschichte. Unter Willy Brandt soll der West-Berliner Senat ein
   Atomkraftwerk auf der Pfaueninsel geplant haben. Stimmt das?
 galleryimg:
   - gal_img: /static/img/pfaueninsel_vfll-blog.jpg
