@@ -20,7 +20,7 @@ caserelprojects:
 img: /static/img/brockhaus-teaser.jpg
 title: Brockhaus Jahrbuch
 mainimg:
-  main_img: /static/img/brockhaus-main.jpg
+  main_img: /static/img/brockhaus-jahrbuch-buchruecken.jpg
   title: Brockhaus Jahrbuch
   alt: "Foto des Einbands eines Brockhaus Jahrbuchs "
 description: Kaum ist es gedruckt und ausgeliefert, veraltet ein Lexikon schon.
@@ -42,7 +42,7 @@ galleryimg:
     alt: Doppelseite aus dem Brockhaus Jahrbuch 2013
 result: Jeweils über 50 Lemmata in den Brockhaus Jahrbüchern seit 2011
 teaserimg:
-  img: /static/img/brockhaus-teaser.jpg
+  img: /static/img/brockhaus-jahrbuch_faksimile.jpg
   alt: Brockhaus Jahrbuch
 tasks:
   - schreiben
