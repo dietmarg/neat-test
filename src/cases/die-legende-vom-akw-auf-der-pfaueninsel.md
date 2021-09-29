@@ -22,7 +22,7 @@ result: Die Legende vom AKW auf der Pfaueninsel, 2017 veröffentlicht auf dem
   und in englischer Übersetzung im [Occulto
   Magazine](https://www.occultomagazine.com/issue-h/)
 teaserimg:
-  img: /static/img/pfaueninsel-mit-pfau.jpg
+  img: /static/img/pfau-pfaueninsl.jpg
   alt: Collage Pfau vor Pfaueninselschloss
 tasks:
   - faktencheck
