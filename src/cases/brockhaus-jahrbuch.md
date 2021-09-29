@@ -15,8 +15,8 @@ mytasks: Afghanistan, Ägypten, Algerien, Armenien, Äthiopien, Bahrain, Brunei,
   Quelle.
 caserelprojects:
   - Zero-Waste-Blog
-  - Klimaschutz in Steglitz-Zehlendorf
-  - Test
+  - Die schönsten Berliner Kieze
+  - VFLL-Anzeigen
 img: /static/img/brockhaus-teaser.jpg
 title: Brockhaus Jahrbuch
 mainimg:
