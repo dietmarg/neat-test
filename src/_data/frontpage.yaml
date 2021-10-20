@@ -14,9 +14,9 @@ services:
       Falls Sie noch nicht wissen, wie Ihre Publikation aufgebaut sein soll, erarbeite ich Ihnen ein **Konzept**. Beim Schreiben stütze ich mich auf Ihre Informationen oder stelle eigene **Recherchen** an, wobei ich die Quellen säuberlich dokumentiere. Und selbstverständlich schlage ich den zielgruppengerechten Ton an.
     icon: pencil
     servicerelprojects:
-      - Brockhaus Jahrbuch
       - BUNDzeit
       - Die Legende vom AKW auf der Pfaueninsel
+      - Brockhaus Jahrbuch
   - title: Lektorieren
     description: Ich optimiere Ihre Texte inhaltlich, stilistisch und formal.
     icon: book-open
