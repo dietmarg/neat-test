@@ -166,7 +166,7 @@ path: home
                       {% for item in items %} 
                       {% if item == case.data.title %}
                       <a href="{{ case.url | url }}" class=" transition duration-100 ease-in-out transform hover:scale-105">
-                      <img src="{{ case.data.img }}" alt="" />
+                      <img src="{{ case.data.teaserimg.img }}" alt="" />
                       <p class="text-gray-700">{{ case.data.title }}</p>
                       </a>
                       {% endif %} 

@@ -112,7 +112,7 @@ collections:
                 collection: cases
                 search_fields: ["title"]
                 value_field: title 
-                display_fields: ["title", "img"]
+                display_fields: ["title", "teaserimg.img"]
                 required: false
                 multiple: true
                 max: 3    
