@@ -18,7 +18,7 @@ caserelprojects:
 img: /static/img/bundzeit_teserimg.jpg
 title: BUNDzeit
 mainimg:
-  main_img: /static/img/bundzeit_main.jpg
+  main_img: /static/img/bundzeit_21-2_titel.jpg
   title: Screenshot BUNDzeit
   alt: Screenshot BUNDzeit zeigt Logo und Artikel-Intro
 description: "Die viermal jährlich in einer Auflage von 30.000 Stück
