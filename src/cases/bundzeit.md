@@ -9,12 +9,11 @@ mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
   passenden Bilder heraus – bevorzugt aus dem BUND-Archiv oder von mir
   aufgenommene. Stockfotos bleiben aus guten Gründen die Ausnahme. In einem
   vorletzten Arbeitsschritt organisiere ich das Korrekturlesen und das
-  Einarbeiten der Korrekturen. Sobald die Druckfassung der BUNDzeit erschienen
-  ist, arbeite ich die einzelnen Artikel in das Content-Management-System Typo3
-  ein, um sie auf den Internetseiten des BUND Berlin und des BUND Brandenburg zu
-  veröffentlichen. Dabei passe ich nicht nur Wort und Bild den Erfordernissen
-  eines guten Webauftritts an, sondern sorge auch für die richtige Verlinkung
-  und Verschlagwortung."
+  Einarbeiten der Korrekturen. Nachdem die Druckfassung der BUNDzeit erschienen
+  ist, werden die einzelnen Artikel auf den Internetseiten des BUND Berlin und
+  des BUND Brandenburg veröffentlicht. Dazu passe ich Wort und Bild den
+  Erfordernissen eines guten Webauftritts an und sorge für die richtige
+  Verlinkung und Verschlagwortung in Typo3."
 caserelprojects:
   - Zero-Waste-Blog
   - WWF-Studien
