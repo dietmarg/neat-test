@@ -33,13 +33,13 @@ partners:
     description: Lektor für Wirtschaft, Verbände und Technik
     url: https://www.lectormedia.de/
   - name: Eva Hauck
-    description: Lektorin für Schulbücher, Autorin für Bastelbücher
+    description: Lektorin für Schulbücher, Autorin von Bastelbüchern
     url: https://derspringendepunkt.de
     img:
       url: /static/img/eva-hauck.jpg
       alt: Eva Hauck
   - name: Traudl Kupfer
-    description: Autorin, Redakteurin und Lektorin für Wirtschaft, Politik und Reisen
+    description: Autorin und Lektorin für Wirtschaft, Politik und Reisen
     url: http://www.traudl-kupfer.de
     img:
       url: /static/img/traudl-kupfer.jpg
@@ -51,7 +51,7 @@ partners:
       alt: Claudia Lüdtke
       url: /static/img/claudia-luedtke.jpg
   - name: Andrea Rentschler
-    description: Texterin und Lektorin
+    description: Texterin und Lektorin für Stiftungen, NGOs und Unternehmen
     url: https://andrearentschler.de/
     img:
       url: /static/img/andrea_rentschler.jpg
