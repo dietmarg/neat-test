@@ -6,11 +6,15 @@ mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
   führen und die einzelnen Texte schreiben. Besonderes Vergnügen bereiten mir
   dabei die Ausflugsreportagen aus der Rubrik „Natur erleben“. Während die
   Artikel mit denjenigen, die es angeht, abgestimmt werden, suche ich die
-  passenden Bilder heraus – bevorzugt BUND-eigene oder Bilder aus meinem Archiv.
-  Stockfotos bleiben aus guten Gründen die Ausnahme. Satz und Gestaltung
-  übernimmt auf ebenso solide wie kreative Art Claudia Winter von [sujet
-  design](https://sujet.de/). Im letzten Arbeitsschritt organisiere ich das
-  Korrekturlesen und das Einarbeiten der Korrekturen."
+  passenden Bilder heraus – bevorzugt aus dem BUND-Archiv oder von mir
+  aufgenommene. Stockfotos bleiben aus guten Gründen die Ausnahme. In einem
+  vorletzten Arbeitsschritt organisiere ich das Korrekturlesen und das
+  Einarbeiten der Korrekturen. Sobald die Druckfassung der BUNDzeit erschienen
+  ist, arbeite ich die einzelnen Artikel in das Content-Management-System Typo3
+  ein, um sie auf den Internetseiten des BUND Berlin und des BUND Brandenburg zu
+  veröffentlichen. Dabei passe ich nicht nur Wort und Bild den Erfordernissen
+  eines guten Webauftritts an, sondern sorge auch für die richtige Verlinkung
+  und Verschlagwortung."
 caserelprojects:
   - Zero-Waste-Blog
   - WWF-Studien
