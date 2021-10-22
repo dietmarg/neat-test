@@ -8,7 +8,7 @@ description: Das Inselchen am südwestlichen Stadtrand von Berlin ist für seine
   Schlösser, die grandiose Landschaftsarchitektur und für die namensgebenden
   Tiere bekannt; es ist einer der beliebtesten Ausflugsorte der Hauptstadt. Im
   Internet und in einigen Büchern und Zeitschriften kursiert allerdings eine
-  beunruhigende Geschichte. Unter Willy Brandt soll der West-Berliner Senat ein
+  seltsame Geschichte. Unter Willy Brandt soll der Berliner Senat ein
   Atomkraftwerk auf der Pfaueninsel geplant haben. Stimmt das?
 galleryimg:
   - gal_img: /static/img/pfaueninsel_vfll-blog.jpg
@@ -23,7 +23,7 @@ result: Die Legende vom AKW auf der Pfaueninsel, 2017 veröffentlicht auf dem
   Magazine](https://www.occultomagazine.com/issue-h/)
 teaserimg:
   img: /static/img/pfau-pfaueninsl.jpg
-  alt: Collage Pfau vor Pfaueninselschloss
+  alt: Ein Pfau läuft über Sandboden
 tasks:
   - faktencheck
   - schreiben
