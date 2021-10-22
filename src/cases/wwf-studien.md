@@ -11,9 +11,9 @@ description: Ungefähr neun von zehn Bundesbürger*innen dürften den World Wide
   skizzieren den Ausstiegspfad aus der Kohleverstromung und den Ausbaubedarf von
   Wind- und Solarkraft.
 mytasks: Vor der Veröffentlichung der Studien übernahm ich das Lektorat. Wie bei
-  allen fachlich anspruchsvollen Texten war auch hier bei beim Lektorat bzw. bei
-  der Redaktion die Herausforderung, komplizierte Satzkonstruktionen zu
-  vereinfachen, ohne dabei die Komplexität des Inhalts zu reduzieren.
+  allen fachlich anspruchsvollen Texten bestand auch hier bei beim Lektorat bzw.
+  bei der Redaktion die Herausforderung darin, komplizierte Satzkonstruktionen
+  zu vereinfachen, ohne dabei die Komplexität des Inhalts zu reduzieren.
   Schließlich soll es auch interessierten Laien möglich sein, den Inhalt der
   Publikation relativ schnell zu erfassen. Daneben achtete ich bei der
   redaktionellen Bearbeitung der beiden WWF-Studien auf die richtige Zuordnung
