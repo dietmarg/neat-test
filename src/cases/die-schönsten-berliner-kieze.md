@@ -1,5 +1,6 @@
 ---
 title: Die schönsten Berliner Kieze
+permalink: "arbeitsbeispiele/die-schoensten-berliner-kieze/"
 mainimg:
   main_img: /static/img/kiezbuch-titel-mit-leiste.jpg
   title: Die schönsten Berliner Kieze
