@@ -4,8 +4,8 @@ mytasks: "Welche Ausmaße hat das Coffee-to-go-Unwesen in Berlin mittlerweile
   Abreißen entstehen? Wie funktioniert eine Wurmkiste? Diese und viele andere
   Fragen kläre ich in den Blogartikeln auf remap-berlin.de, soweit das in einem
   Umfang von etwa 5000 Zeichen möglich ist. Dabei gilt: Ich schreibe nur, was
-  ich auch belegen kann – die Suche nach und die Bewertung von Quellen ist daher
-  ein wesentlicher Teil der Arbeit."
+  ich auch belegen kann – die Suche nach und die Bewertung von Quellen ist ein
+  wesentlicher Teil der Arbeit."
 caserelprojects:
   - Brockhaus Jahrbuch
   - Klimaschutz in Steglitz-Zehlendorf
