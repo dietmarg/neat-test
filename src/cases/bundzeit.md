@@ -2,18 +2,17 @@
 mytasks: "Nachdem ich mit den Verantwortlichen aus den beiden
   BUND-Landesverbänden geklärt habe, was in der kommenden Ausgabe behandelt
   werden soll, stelle ich einen Seitenplan zusammen. Dann beginnt die
-  eigentliche Arbeit: Recherchen zu den einzelnen Themen betreiben, Interviews
-  führen und die einzelnen Texte schreiben. Besonderes Vergnügen bereiten mir
-  dabei die Ausflugsreportagen aus der Rubrik „Natur erleben“. Während die
-  Artikel mit denjenigen, die es angeht, abgestimmt werden, suche ich die
-  passenden Bilder heraus – bevorzugt aus dem BUND-Archiv oder von mir
-  aufgenommene. Stockfotos bleiben aus guten Gründen die Ausnahme. In einem
-  vorletzten Arbeitsschritt organisiere ich das Korrekturlesen und das
+  eigentliche Arbeit: zu den Themen recherchieren, Interviews führen und die
+  Texte schreiben. Besonderes Vergnügen bereiten mir dabei die
+  Ausflugsreportagen aus der Rubrik „Natur erleben“. Während die Artikel
+  abgestimmt werden, suche ich die passenden Bilder heraus – bevorzugt aus dem
+  BUND-Archiv oder von mir aufgenommene. Stockfotos bleiben aus guten Gründen
+  die Ausnahme. Anschließend organisiere ich das Korrekturlesen und das
   Einarbeiten der Korrekturen. Nachdem die Druckfassung der BUNDzeit erschienen
-  ist, werden die einzelnen Artikel auf den Internetseiten des BUND Berlin und
-  des BUND Brandenburg veröffentlicht. Dazu passe ich Wort und Bild den
-  Erfordernissen eines guten Webauftritts an und sorge für die richtige
-  Verlinkung und Verschlagwortung in Typo3."
+  ist, werden die Artikel auf den Internetseiten des BUND Berlin und des BUND
+  Brandenburg veröffentlicht. Dazu passe ich Wort und Bild für einen guten
+  Webauftritt an und sorge für die richtige Verlinkung und Verschlagwortung in
+  Typo3."
 caserelprojects:
   - Zero-Waste-Blog
   - WWF-Studien
@@ -31,9 +30,9 @@ description: "Die viermal jährlich in einer Auflage von 30.000 Stück
   sich als Umweltzeitung für die Metropolregion. Jede Ausgabe beleuchtet ein
   anderes Schwerpunktthema, das eine wichtige Rolle in der aktuellen
   Umweltpolitik spielt; in jüngerer Zeit beispielsweise Bioabfall, Pestizide,
-  Wasser, Verkehrswende, Kohleausstieg, Populismus und Biodiversität. Natürlich
-  gilt es alle Themen auf die regionale Ebene herunterzubrechen: Was bedeutet
-  diese globale Frage für Berlin und Brandenburg?"
+  Wasser, Verkehrswende, Kohleausstieg, Populismus, Beton und Biodiversität.
+  Natürlich gilt es alle Themen auf die regionale Ebene herunterzubrechen: Was
+  bedeutet diese globale Frage für Berlin und Brandenburg?"
 galleryimg:
   - gal_img: /static/img/bundzeit_03.jpg
     title: BUNDzeit
