@@ -5,13 +5,13 @@ services:
     description: Ich übernehme für Sie die Textproduktion, natürlich exklusiv und
       individuell.
     body: >-
-      *Kaufen Sie sich Ihren Text.*    
+      *Kaufen Sie sich Ihren Text!*
 
 
-      Ich schreibe für Sie. Zum Beispiel Blogartikel, Flyer, Mailings, Buchbeiträge, journalistische Formate (Meldungen, Interviews, Reportagen, Kommentare, Meldungen, Editorials) und natürlich kurze oder lange Texte für Ihre Website.    
+      Ich schreibe für Sie. Zum Beispiel Blogartikel, Flyer, Mailings, Buchbeiträge, journalistische Formate (Meldungen, Interviews, Reportagen, Kommentare, Editorials) und natürlich kurze oder lange Texte für Ihre Website.    
 
 
-      Falls Sie noch nicht wissen, wie Ihre Publikation aufgebaut sein soll, erarbeite ich Ihnen ein **Konzept**. Beim Schreiben stütze ich mich auf Ihre Informationen oder stelle eigene **Recherchen** an, wobei ich die Quellen säuberlich dokumentiere. Und selbstverständlich schlage ich den zielgruppengerechten Ton an.
+      Falls Sie noch nicht wissen, wie Ihre Publikation aufgebaut sein soll, erarbeite ich Ihnen ein **Konzept**. Beim Schreiben stütze ich mich auf Ihre Informationen oder stelle eigene **Recherchen** an, wobei ich die Quellen säuberlich dokumentiere. Stichwort Tonality: Selbstverständlich schlage ich den Ton Ihrer Zielgruppe an.
     icon: pencil
     servicerelprojects:
       - Brockhaus Jahrbuch
@@ -27,7 +27,7 @@ services:
       Ich optimiere, was andere geschrieben haben: Jahresberichte, Broschüren, Studien, Schulungsunterlagen, Positionspapiere, Förderanträge, FAQs, Ihren neuen Internetauftritt, Mitglieder-, Kunden- und Mitarbeiterzeitschriften.
 
 
-      Beim **Lektorat** stehen Verständlichkeit und Lesevergnügen im Vordergrund. Als erster Testleser prüfe ich, ob die Gliederung überzeugt und die Argumentation plausibel erscheint. Wenn nötig kürze ich den Text auf die gewünschte Länge, vereinfache den Satzbau, vermeide Wortwiederholungen und sorge für das einheitliche Wording. Nebenbei geht es Rechtschreib-, Grammatik- und Zeichensetzungsfehlern an den Kragen– dies ersetzt aber nicht eine separate Korrekturrunde.
+      Beim **Lektorat** stehen Verständlichkeit und Lesevergnügen im Vordergrund. Als erster Testleser prüfe ich, ob die Gliederung überzeugt und die Argumentation plausibel erscheint. Wenn nötig kürze ich den Text auf die gewünschte Länge, vereinfache den Satzbau, vermeide Wortwiederholungen und sorge für das einheitliche Wording. Nebenbei geht es Rechtschreib-, Grammatik- und Zeichensetzungsfehlern an den Kragen – dies ersetzt jedoch nicht eine separate Korrekturrunde.
 
 
       Bei der **Schlussredaktion** hingegen ist es zu spät für stilistische und inhaltliche Verbesserungen. Wenn der Text erst einmal gesetzt ist, markiere ich die verbliebenen Tippfehler, überprüfe Eigennamen und Links und werfe einen besonders kritischen Blick auf Überschriften, Bildlegenden und Zeilenumbrüche.
@@ -51,10 +51,10 @@ services:
       *Verraten Sie mir das Passwort!*
 
 
-      Ich entlaste Sie bei der **Webredaktion**: Für Vereine und Institutionen übernehme ich Redaktionsarbeiten in Typo3 und anderen Content-Management-Systemen; falls das Auftragsvolumen es erfordert gemeinsam mit meinem Kollegen Herwig Frenzel, mit dem ich mehrere Jahre lang für den Internetauftritt unseres Berufsverbands VFLL verantwortlich war, 
+      Ich entlaste Sie bei der **Webredaktion**: Für Vereine und Institutionen übernehme ich Redaktionsarbeiten in Typo3 und anderen Content-Management-Systemen – falls das Auftragsvolumen es erfordert gemeinsam mit meinem Kollegen Herwig Frenzel. Mit ihm war ich mehrere Jahre lang für den Internetauftritt unseres Berufsverbands VFLL verantwortlich. 
 
 
-      Wir stellen Ihre Inhalte nicht bloß ins Netz, sondern erledigen als erfahrene Redakteure die Schlussredaktion und sorgen für passende Headlines, Teaser und Bilder. Als Profis in der **Verbandskommunikation** bewegen wir uns leichtfüßig im Spannungsfeld zwischen Hauptamtlichen, Vorstand und Ehrenamtlichen.
+      Ich stelle Ihre Inhalte nicht bloß ins Netz, sondern erledige als erfahrener Redakteur die Schlussredaktion und sorge für passende Headlines, Teaser und Bilder. Als Profi in der **Verbandskommunikation** bewege ich mich leichtfüßig im Spannungsfeld zwischen Hauptamtlichen, Vorstand und Ehrenamtlichen.
     servicerelprojects:
       - BUNDzeit
 expertise:
