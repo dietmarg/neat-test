@@ -45,7 +45,8 @@ services:
       - Brockhaus Jahrbuch
       - Die Legende vom AKW auf der Pfaueninsel
   - title: Webredaktion
-    description: Ich stelle Ihre Texte ins Netz.
+    description: Ich stelle Ihre Texte ins Netz. Und zwar so, dass sie dort gern
+      gelesen werden.
     icon: desktop-computer
     body: >-
       *Verraten Sie mir das Passwort!*
@@ -54,7 +55,7 @@ services:
       Ich entlaste Sie bei der **Webredaktion**: Für Vereine und Institutionen übernehme ich Redaktionsarbeiten in Typo3 und anderen Content-Management-Systemen – falls das Auftragsvolumen es erfordert gemeinsam mit meinem Kollegen Herwig Frenzel. Mit ihm war ich mehrere Jahre lang für den Internetauftritt unseres Berufsverbands VFLL verantwortlich. 
 
 
-      Ich stelle Ihre Inhalte nicht bloß ins Netz, sondern erledige als erfahrener Redakteur die Schlussredaktion und sorge für passende Headlines, Teaser und Bilder. Als Profi in der **Verbandskommunikation** bewege ich mich leichtfüßig im Spannungsfeld zwischen Hauptamtlichen, Vorstand und Ehrenamtlichen.
+      Ich stelle Ihre Inhalte nicht bloß ins Netz, sondern erledige als erfahrener Redakteur die Schlussredaktion und sorge für passende Headlines, Teaser und Bilder.
     servicerelprojects:
       - BUNDzeit
 expertise:
@@ -63,7 +64,9 @@ expertise:
   body: Komplizierte politische Sachverhalte verständlich darzustellen, ohne sie
     zu vereinfachen, ist seit vielen Jahren der inhaltliche Kern meiner Arbeit.
     Davon profitieren Initiativen, Verbände, Behörden, Institutionen, NGOs und
-    Agenturen.
+    Agenturen. Als Profi in der Verbandskommunikation bewege ich mich
+    leichtfüßig im Spannungsfeld zwischen Hauptamtlichen, Vorstand und
+    Ehrenamtlichen.
 profile:
   image: /static/img/sebastian_petrich300x300.jpg
   title: Gestatten Sie?
