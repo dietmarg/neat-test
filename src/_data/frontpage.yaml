@@ -14,9 +14,9 @@ services:
       Falls Sie noch nicht wissen, wie Ihre Publikation aufgebaut sein soll, erarbeite ich Ihnen ein **Konzept**. Beim Schreiben stütze ich mich auf Ihre Informationen oder stelle eigene **Recherchen** an, wobei ich die Quellen säuberlich dokumentiere. Stichwort Tonality: Selbstverständlich schlage ich den Ton Ihrer Zielgruppe an.
     icon: pencil
     servicerelprojects:
+      - Die schönsten Berliner Kieze
       - Brockhaus Jahrbuch
-      - BUNDzeit
-      - Die Legende vom AKW auf der Pfaueninsel
+      - Klimaschutz in Steglitz-Zehlendorf
   - title: Lektorieren
     description: Ich optimiere Ihre Texte inhaltlich, stilistisch und formal.
     icon: book-open
@@ -33,6 +33,7 @@ services:
       Bei der **Schlussredaktion** hingegen ist es zu spät für stilistische und inhaltliche Verbesserungen. Wenn der Text erst einmal gesetzt ist, markiere ich die verbliebenen Tippfehler, überprüfe Eigennamen und Links und werfe einen besonders kritischen Blick auf Überschriften, Bildlegenden und Zeilenumbrüche.
     servicerelprojects:
       - WWF-Studien
+      - BUNDzeit
   - title: Faktencheck
     description: Ich überprüfe die Aussagen in Ihrem Text.
     icon: search
@@ -44,6 +45,7 @@ services:
     servicerelprojects:
       - Brockhaus Jahrbuch
       - Die Legende vom AKW auf der Pfaueninsel
+      - Zero-Waste-Blog
   - title: Webredaktion
     description: Ich stelle Ihre Texte ins Netz. Und zwar so, dass sie dort gern
       gelesen werden.
