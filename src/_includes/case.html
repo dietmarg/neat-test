@@ -25,7 +25,7 @@ permalink: "arbeitsbeispiele/{{ title | slug }}/"
             <div class="flex items-center mt-4">
             {% for img in galleryimg %}
 
-                <a href="#" class="border-b-4 border-transparent mr-4 hover:border-cyan-600" :class="{ 'border-cyan-600' : image === 'image{{ loop.index }}'}" @click.prevent="image = 'image{{ loop.index }}'"><img src="{{ img.gal_img }}" alt="" class="thumb max-w-12 max-h-12"></a>
+                <a href="#" class="border-b-4 border-transparent mr-4 hover:border-cyan-600" :class="{ 'border-cyan-600' : image === 'image{{ loop.index }}'}" @click.prevent="image = 'image{{ loop.index }}'"><img src="{{ img.gal_img }}" loading="lazy" alt="" class="thumb max-w-12 max-h-12"></a>
                 
                 {% endfor %}
             </div>
@@ -72,7 +72,7 @@ permalink: "arbeitsbeispiele/{{ title | slug }}/"
                       {% for case in cases %} 
                       {% if case.data.title != title and item == case.data.title %}
                       <a href="{{ case.url | url }}" class=" transition duration-100 ease-in-out transform hover:scale-105">
-                      <img src="{{ case.data.teaserimg.img }}" alt="{{ case.data.teaserimg.alt }}" />
+                      <img src="{{ case.data.teaserimg.img }}" alt="{{ case.data.teaserimg.alt }}" loading="lazy" />
                       <p class="text-gray-700">{{ case.data.title }}</p>
                       </a>
                       {% endif %} 
