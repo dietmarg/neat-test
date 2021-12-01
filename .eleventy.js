@@ -3,6 +3,9 @@ const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 const markdownIt = require("markdown-it");
+const { compress } = require('eleventy-plugin-compress');
+const purgeCssPlugin = require("eleventy-plugin-purgecss");
+
 
 /* const Image = require("@11ty/eleventy-img")
 const path = require('path')
@@ -71,7 +74,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(require('eleventy-plugin-heroicons'), {
     className: 'heroicon',
     errorOnMissing: true
-});
+  });
 
 
   // To Support .yaml Extension in _data
@@ -120,6 +123,17 @@ module.exports = function (eleventyConfig) {
     }
 
     return content;
+
+    eleventyConfig.addPlugin(purgeCssPlugin, {
+      // Optional: Specify the location of your PurgeCSS config
+      config: "./purgecss.config.js",
+  
+      // Optional: Set quiet: true to suppress terminal output
+      quiet: false,
+    });
+
+    eleventyConfig.addPlugin(compress, {
+    });
   });
 
   // Let Eleventy transform HTML files as nunjucks
@@ -130,4 +144,6 @@ module.exports = function (eleventyConfig) {
     },
     htmlTemplateEngine: "njk",
   };
+
+  
 };
