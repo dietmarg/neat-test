@@ -1,6 +1,6 @@
 ---
 mainimg:
-  main_img: /static/img/kiezbuch-titel-mit-leiste.jpg
+  main_img: /static/img/die-schoensten-berliner-kieze_cover2022.jpg
   title: Die schönsten Berliner Kieze
   alt: "Titelansicht Sebastian Petrich, Die schönsten Berliner Kieze "
 mytasks: "Mit der Entscheidung für 20 Kieze ging die Arbeit erst richtig los:
