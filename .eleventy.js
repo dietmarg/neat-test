@@ -3,7 +3,7 @@ const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 const markdownIt = require("markdown-it");
-const { compress } = require('eleventy-plugin-compress');
+/* const { compress } = require('eleventy-plugin-compress'); */
 const purgeCssPlugin = require("eleventy-plugin-purgecss");
 
 
@@ -125,7 +125,7 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  eleventyConfig.addPlugin(purgeCssPlugin, {
+  /* eleventyConfig.addPlugin(purgeCssPlugin, {
     // Optional: Specify the location of your PurgeCSS config
     config: "./purgecss.config.js",
   
@@ -135,7 +135,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(compress, {
     });  
-
+    */
   // Let Eleventy transform HTML files as nunjucks
   // So that we can use .html instead of .njk
   return {
