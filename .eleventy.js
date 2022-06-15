@@ -124,17 +124,18 @@ module.exports = function (eleventyConfig) {
 
     return content;
   });
-  
-    eleventyConfig.addPlugin(purgeCssPlugin, {
-      // Optional: Specify the location of your PurgeCSS config
-      config: "/purgecss.config.js",
-  
-      // Optional: Set quiet: true to suppress terminal output
-      quiet: false,
-    });
 
-    eleventyConfig.addPlugin(compress, {
+  /* eleventyConfig.addPlugin(purgeCssPlugin, {
+    // Optional: Specify the location of your PurgeCSS config
+    config: "/purgecss.config.js",
+  
+    // Optional: Set quiet: true to suppress terminal output
+    quiet: false,
+  });
+
+  eleventyConfig.addPlugin(compress, {
     });
+    */
   
 
   // Let Eleventy transform HTML files as nunjucks
