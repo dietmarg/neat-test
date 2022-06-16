@@ -36,7 +36,7 @@ result: Sebastian Petrich, Die schönsten Berliner Kieze, Berlin, Elsengold,
   2022. Erhältlich im stationären Buchhandel und im [Onlineshop der
   Autorenwelt](https://shop.autorenwelt.de/products/die-schonsten-berliner-kieze-20-streifzuge-durch-die-stadt-von-sebastian-petrich-jo-jankowski?variant=32936606597213).
 teaserimg:
-  img: /static/img/kiezbuch-erste-doppelseite-angeschnitten.jpg
+  img: /static/img/kiezbuch-erste-doppelseite-angeschnitten_271.jpg
   alt: Die schönsten Berliner Kieze
 tasks:
   - schreiben
