@@ -1,5 +1,5 @@
 ---
-title: Die Legende vom AKW auf der Pfaueninsel
+title: Ein AKW auf der Pfaueninsel?
 mainimg:
   main_img: /static/img/pfaueninselblick-norden.jpg
   alt: Uferpflanzen vor einem Gewässer
